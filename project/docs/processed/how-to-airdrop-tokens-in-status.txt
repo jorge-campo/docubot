@@ -1,0 +1,102 @@
+---
+id: 540
+revision: '1'
+language: en
+title: How to airdrop tokens in Status
+author: jorge-campo, cheny0
+roles:
+- Owners
+- TokenMasters
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only airdrop tokens using the Status desktop app.
+
+
+The community Owner and TokenMaster roles can airdrop tokens to community and non-community members using the Status app. In airdrops, Owners or TokenMasters distribute free tokens for different purposes, such as to reward the community, incentivize community participation, promote a new token or decentralize the token ownership.
+
+Tokens include assets (virtual coins), collectibles and ENS names. You can airdrop assets and collectibles in Status. These can be [assets you mint](./mint-tokens-for-your-community.mdx) or [import to the community](./import-tokens-to-your-community.mdx).
+
+To airdrop tokens, you can choose between [Ethereum](../getting-started/about-the-ethereum-blockchain.mdx) or one of the [Layer-2 networks](../getting-started/layer-2-scaling-solutions-for-ethereum.mdx) supported by Status. Your network of choice determines the cost and speed of your airdrop campaign. For more information, check out [Blockchain networks comparison for airdrops](./blockchain-networks-comparison-for-airdrops.mdx).
+
+## What to expect
+
+- Only the community Owner and TokenMaster roles can run airdrops.
+- If the asset you want to airdrop exists in multiple networks, you can [choose the network to airdrop](./choose-the-network-for-your-airdrop-campaign.mdx). Collectibles are unique digital items on a specific blockchain network.
+- To run a new airdrop campaign, you need to complete a transaction in the blockchain. As with other blockchain transactions, Owners must pay a transaction fee (gas fee). To learn more about this fee, check out [Understand network fees](../wallet/understand-network-fees.mdx).
+- The limit of tokens you can airdrop depends on the number of tokens you own, your Wallet account balance to cover the gas fees and the block gas limit for the network where the airdrop takes place.
+- You can airdrop tokens in more than one network simultaneously. This process requires paying gas fees on each one of the networks.
+
+    [Admonition: Info]
+    The blockchain you choose charges the airdrop network fee. Status doesn't charge any fee for airdrops.
+
+
+## Airdrop a token
+
+Complete these three steps to airdrop tokens in Status:
+
+<AwaitedList>
+1. [Select the token to airdrop](#step-1-select-the-token-to-airdrop).
+1. [Choose the airdrop recipients](#step-2-choose-the-airdrop-recipients).
+1. [Complete the airdrop transaction](#step-3-complete-the-airdrop-transaction).
+</AwaitedList>
+
+### Step 1: Select the token to airdrop
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. At the top of the channel sidebar, click your community logo and then click "Airdrops".
+1. Click "New Airdrop".
+1. For the "What" variable, click "Add".
+1. In the token selection dialogue, choose the "Asset" or "Collectible" tab, depending on what you want to airdrop.
+1. Select the token you want to airdrop, enter the "Amount" of tokens and click "Add".
+1. The network for the airdrop is automatically set to match the token's original network.
+1. Enter the number of tokens to airdrop and click "Add".
+
+    [Admonition: Info]
+    You can airdrop different tokens in the same airdrop campaign. After adding one token, click "Add" again under the "What" variable to add a new token.
+
+
+    [Admonition: Tip]
+    You can choose the network for the airdrop if the token exists in multiple networks.
+
+
+{/*
+    [Admonition: Tip]
+    Next to each asset and collectible, you can see the available token supply to airdrop or the ∞ infinite symbol for tokens with infinite supply. For more information about these options, check out [Mint tokens for your community](./mint-tokens-for-your-community.mdx).
+    */}
+
+
+### Step 2: Choose the airdrop recipients
+
+[Desktop Instructions]
+1. For the "To" variable, click "Add".
+1. Choose "ETH addresses" or "Community members".
+1. For Ethereum addresses, paste or manually enter the address hexadecimal values separated by comma (,).
+1. For community members, check the box next to the community members you want to airdrop tokens. Check the "Select all" box to select all your community members.
+1. Click "Add members" to confirm your selection.
+1. Click "Add" again if you wish to include additional recipients.
+
+    {/* 1. Optionally, turn on "Members will receive notifications" if you want community members to receive a notification when they receive the token. Non-members don't receive a notification. */}
+
+    [Admonition: Tip]
+    The airdrop recipients list can include both Ethereum addresses and community members.
+
+
+### Step 3: Complete the airdrop transaction
+
+The Status app calculates the total network fees after you choose the airdrop recipients.
+
+[Desktop Instructions]
+1. In the "Fees" area, verify the gas fee required by the network.
+1. Select the Wallet account that holds the Owner or TokenMaster token. If the airdrop includes tokens in multiple networks, you can see the gas fees required by each network.
+1. Click "Create airdrop".
+1. Verify the total cost of your transaction and click "Sign transaction".
+1. "Authenticate" with your password, biometrics or Keycard. The airdrop starts immediately.
+
+    [Admonition: Info]
+    You can check the community tokens owners in the "Tokens" area.

@@ -1,0 +1,67 @@
+---
+id: 570
+revision: '0'
+language: en
+title: Customize mentions and other messages notifications
+author: Fabiomorais87, cheny0, jorge-campo 
+---
+
+    [Admonition: Info]
+    Currently, you can only customize your channel notifications in the Status mobile app.
+
+
+When using the Status app, you can customize how you receive notifications in direct messages (DMs), group chats or communities.
+
+For example, you may want to receive notifications for mentions in group chats but not in communities, or you may want to receive DM notifications only in the [Status notification center](./your-status-notifications-guide.mdx).
+
+Here are the notifications you can customize:
+
+    [Table]
+    | Notifications | Description |
+    |---|---|
+    | Personal mentions | Messages that specifically mention you. For example, someone tags you in a group chat. |
+    | Global mentions | Messages directed to the entire community. For example, an announcement in a channel or group chat tagged with "@everyone" or "@here" that notifies all members. |
+    | All other messages | Any message that isn't a Personal or Global Mention. For example, a message in a group chat or channel you're in that isn't tagged with your name or isn't an announcement. |
+
+    [Admonition: Tip]
+    You can further customize the notifications you receive using [exceptions](./set-up-and-customize-notification-exceptions.mdx).
+
+
+## Customize mentions and all other messages notifications
+
+You can customize how you receive notifications for personal and global mentions and all other messages.
+
+[Tab 1 Instructions]
+1. From the tab bar, tap "Communities" to customize your community or channel notifications, or tap "Messages" to customize your group chat or DM notifications.
+1. Tap the community, channel, group chat or DM you want to set up notifications for and, in the top navigation, tap "More options".
+1. Tap "Notification settings".
+1. Select "Personal mentions", "Global mentions" or "All other messages".
+1. Choose your preferred notification setting:
+
+    [Table]
+    | Setting | Description |
+    |---|---|
+    | Notification on | Turn this on if you want to see notifications banners. |
+    | In notification centre only | Turn this option on to receive the notifications in the Status notification centre. You need to unlock your phone to see the notifications. |
+    | Notifications off | Turn this on if you don't want to receive notifications. |
+
+    [Admonition: Tip]
+    You can configure the same notification setting for DMs, group chats or communities using the "Same settings for all message types" option.
+
+
+## How to disable on-screen notifications
+
+On-screen notifications appear as banners on your device's screen when you're actively using it or when the screen is locked.
+
+You can disable on-screen notifications for new messages within the Status app. This may be useful when you plan to attend a public event and you don't want your notifications to show on the screen.
+
+[Tab 1 Instructions]
+1. From the tab bar, tap "Communities" to customize your community or channel notifications, or tap "Messages" to customize your group chat or DM notifications.
+1. Tap the community, channel, group chat or DM you want to set up notifications for and, in the top navigation, tap "More options".
+1. Tap "Notification settings".
+1. Turn on "Same settings for all message types".
+1. Select "In notification centre only".
+[Tab 2 Instructions]
+1. From the navigation sidebar, click "Settings".
+1. From the "Settings sidebar", click  "Notifications and Sounds".
+1. Under the "Message" area, Select  "Deliver Quietly" for "Personal mentions", "Global mentions" and "All messages" using the drop-down menu.

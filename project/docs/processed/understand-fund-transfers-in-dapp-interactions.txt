@@ -1,0 +1,7 @@
+---
+id: 1238
+revision: '0'
+language: en
+title: Understand fund transfers in dApp interactions
+author: jorge-campo
+---

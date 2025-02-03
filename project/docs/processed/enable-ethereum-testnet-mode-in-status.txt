@@ -1,0 +1,56 @@
+---
+id: 1082
+revision: '0'
+language: en
+title: Enable Ethereum testnet mode in Status
+author: jorge-campo, Fabiomorais87
+roles:
+---
+
+The [Ethereum blockchain](../getting-started/about-the-ethereum-blockchain.mdx) has two networks: Mainnet and testnet. Ethereum Mainnet is the primary network where actual transactions occur with real crypto.
+
+Developers use Ethereum testnet for testing, which doesn't involve real crypto. In testnet mode, they can experiment with features and functionalities without risking their crypto.
+
+When you run Status, your Wallet and token actions occur in the Ethereum Mainnet by default. This means you handle real cryptocurrencies and perform transactions on the main Ethereum network.
+
+    [Admonition: Caution]
+    Ethereum testnet mode is intended only for advanced users and developers.
+
+
+## What to expect
+
+- Don't enable testnet on your main Status installation. Use another computer or virtual machine with a different Status profile.
+- When you enable the Ethereum testnet, everything in the Status app runs on testnet, including the communities you create or are part of.
+- Don't mix Ethereum testnet and Mainet under the same Status profile. Doing so can lead to unexpected issues with your profile and communities.
+
+## Enable testnet mode
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap your avatar and then tap "Advanced"
+1. Turn on "Testnet mode".
+1. Click "OK" to confirm your action.
+
+    [Admonition: Info]
+    Always be cautious when using the "Advanced" options. Don't change these options unless you know what you're doing.
+    [Desktop Instructions]
+    1. From the navigation sidebar, click "Settings" > "Wallet" > "Networks".
+    1. Find the "Advanced" section and enable "Testnet mode".
+    1. Click "Turn on testnet mode" to confirm your action.
+
+
+    [Admonition: Info]
+    Always be cautious when using the "Advanced" options. Don't change these options unless you know what you're doing.
+
+
+## Enable testnet for Status Communities
+
+By default, you can't create or manage Status Communities on testnet. To enable this feature, follow these steps in addition to [enabling testnet mode](#enable-testnet-mode) in your Status app:
+
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings" > "Advanced".
+1. Scroll down to the "Developer features" section.
+1. Find and enable "Manage communities on testnet".
+
+    [Admonition: Info]
+    This option is only available on Status desktop.

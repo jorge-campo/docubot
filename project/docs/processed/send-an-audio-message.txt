@@ -1,0 +1,31 @@
+---
+id: 288
+revision: '2'
+language: en
+title: Send an audio message
+author: Fabiomorais87, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+In Status, anyone in a channel or group chat can send audio messages. You can also send audio messages to your contacts in direct messages (DMs).
+
+You can record an audio message up to one minute long and send as many audio messages as you want.
+
+    [Admonition: Info]
+    Deleting an audio message in Status works as deleting any other message. For more details, check out [Edit and delete your messages](./edit-and-delete-messages.mdx).
+
+
+## Record and send an audio message
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to send an audio message.
+1. In the chat or community channel, long press "Audio" to start recording automatically.
+1. Optionally, slide to "Lock" for hands-free recording.
+1. When you're finished, slide to "send" to stop recording and send the message or to "Delete" to discard the message.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to send an audio message.
+1. In the chat or community channel, click "Audio" next to the message field to start recording.
+1. When you're finished, click "Send".

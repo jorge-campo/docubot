@@ -1,0 +1,44 @@
+---
+id: 479
+revision: '1'
+language: en
+title: Transfer your community ownership
+author: jorge-campo, earakel, cheny0
+---
+
+    [Admonition: Beta]
+    This feature is currently undergoing a rewrite to enhance security. As part of this update, we will no longer use the community private key.
+
+
+If you can't manage your Status Community anymore, you can transfer the ownership to someone else. To transfer your community ownership, you need a [backup of the community private key](./back-up-your-community-private-key.mdx).
+
+When you transfer the ownership, the new owner's computer becomes a [control node](./about-the-control-node-in-status-communities.mdx) with full control of the community, including its settings, permissions and membership approvals.
+
+    [Admonition: Tip]
+    If you need help managing your community, consider adding others as Admins or TokenMaster. For more information, check out [Delegate management functions to community members](./delegate-management-functions-to-your-community.mdx).
+
+
+## Current security issues you should consider
+
+The current system for transferring ownership of Status Communities has two important security issues:
+
+- The community Owner has to share the community private key with the new owner. Manually transferring the private key from one Owner to another is an insecure method of handling a private key.
+- There is no way to be certain that the community is fully transferred. After handing it over to the new owner, the previous Owner may still have a copy of the private key. This means that an old Owner with malicious intentions could potentially regain access to the community at any time.
+
+We're working on implementing a token-based ownership model to solve these problems. In the meantime, be extra cautious when handling your community key and keep it safe. For example, don't save your community private key in an online storage service or screenshot.
+
+    [Admonition: Caution]
+    Read and consider the security implications before you transfer the ownership of your community or become the new Owner of someone else's community.
+
+
+## How to transfer your community ownership
+
+Here's how to transfer your community:
+
+<AwaitedList>
+1. [Back up your community private key](./back-up-your-community-private-key.mdx).
+1. Handle over the private key to the new community owner.
+1. Ask the new Owner to [recover the community](./recover-your-status-community.mdx) using the private key.
+1. [Leave the community](./leave-a-status-community.mdx). If you wish, join the community again as a member.
+1. Delete or destroy any copy you own of the private key.
+</AwaitedList>

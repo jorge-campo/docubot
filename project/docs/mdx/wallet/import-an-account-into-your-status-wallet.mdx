@@ -1,0 +1,138 @@
+---
+id: 442
+revision: '1'
+language: en
+title: Import an account into your Status Wallet
+author: earakel, jorge-campo
+roles: 
+---
+
+<Admonition type="beta" status="Status app is currently in beta stage">
+  The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+</Admonition>
+
+To use your existing wallet account with Status Wallet, import either your recovery phrase or private key. Both options are valid and retrieve the same account for you.
+
+{/*
+  The key difference is that if you import your recovery phrase, you can choose to set a [custom derivation path](./about-custom-derivation-paths.mdx). You can't do this with your private key. If you don't want to change your addresses, it doesn't matter whether you import your recovery phrase or private key.
+*/}
+
+## Import an account using your recovery phrase
+
+<Tabs defaultValue="Mobile">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile">
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Mobile">
+    1. From the tab bar, tap <ContextTag icon={<WalletIcon />}>Wallet</ContextTag>.
+    1. Swipe left across the accounts until you reach the end, then tap <ContextTag icon={<AddIcon />}>Add</ContextTag> > <ContextTag icon={<AddIcon />}>Add account</ContextTag>.
+    1. Under <ContextTag>Origin</ContextTag>, tap <ContextTag icon={<AddSmallIcon />}>Add</ContextTag> > <ContextTag icon={<SeedIcon />}> Import using recovery phrase</ContextTag>
+    1. Type or paste your recovery phrase into the field and tap <ContextTag>Continue</ContextTag>.
+    1. Set a name for this key and tap <ContextTag>Continue</ContextTag>. This name is only visible to you.
+    1. Choose a name and a highlight colour for your account. These are only visible to you. Swipe to create your account.
+  </TabsContent>
+
+  <TabsContent value="Desktop">
+    1. From the navigation sidebar, click <ContextTag icon={<WalletDesktopIcon />}>Wallet</ContextTag>.
+    1. Click <ContextTag icon={<AddDesktopIcon />}>Add</ContextTag>.
+    1. Click your profile picture under <ContextTag>Origin</ContextTag>. Under <ContextTag>Import new</ContextTag>, select <ContextTag icon={<ObjectsDesktopIcon />}>Add new master key</ContextTag>.
+    1. Select <ContextTag icon={<SeedPhraseDesktopIcon /> }>Import using your seed phrase</ContextTag>.
+    1. Choose your recovery phrase's length (12, 18 or 24 words) and paste it into the fields.
+    1. Set a name for this key and click <ContextTag>Continue</ContextTag>. This name is only visible to you.
+  </TabsContent>
+</Tabs>
+
+<Admonition type="caution">
+  Keep your recovery phrase safe and never share it with anyone. Status will never ask you for this information, and anyone who does is trying to steal your profile and wallet funds.
+</Admonition>
+
+## Import an account using your private key
+
+A private key is a string of letters and numbers that allows you to access and manage your crypto.
+
+<Admonition type="caution">
+  Never share your private key with anyone. Whoever has your private key can access and manage your crypto. Status will never ask you for your key, and anyone who does is trying to steal your profile and wallet funds.
+</Admonition>
+
+### Import your private key manually
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  {/*
+    <TabsContent value="Mobile">
+      1. From the tab bar, tap <ContextTag icon={<WalletIcon />}>Wallet</ContextTag>. Tap <ContextTag icon={<AddSmallIcon />}>Add account</ContextTag>.
+      1. Under <ContextTag>Origin</ContextTag>, tap <ContextTag icon={<StatusIcon />}>Status default keypair</ContextTag>.
+      1. Under <ContextTag>Import new</ContextTag>, tap <ContextTag icon={<KeyIcon />}>Add new master key</ContextTag>.
+      1. Select <ContextTag icon={<KeyIcon />}>Import private key</ContextTag>. Paste your private key into the field and tap <ContextTag>Continue</ContextTag>.
+      1. Set a name for this key and tap <ContextTag>Continue</ContextTag>. This name is only visible to you.
+      1. Choose a name and a highlight colour for your account. These are only visible to you. Swipe to create your account.
+    </TabsContent>
+  */}
+
+  <TabsContent value="Desktop">
+    1. From the navigation sidebar, click <ContextTag icon={<WalletDesktopIcon />}>Wallet</ContextTag>.
+    1. Click <ContextTag icon={<AddDesktopIcon />}>Add</ContextTag>.
+    1. Click your profile picture under <ContextTag>Origin</ContextTag>. Under <ContextTag>Import new</ContextTag>, select <ContextTag icon={<ObjectsDesktopIcon />}>Add new master key</ContextTag>.
+    1. Select <ContextTag icon={<ObjectsDesktopIcon />}>Import private key</ContextTag>.
+    1. Paste your private key into the field.
+    1. Set a name for this key and click <ContextTag>Continue</ContextTag>. This name is only visible to you.
+  </TabsContent>
+</Tabs>
+
+### Import your private key from your Keycard
+
+Keycard is a hardware wallet you can use with your Status app for extra security. For more details, check out [Keycard: your quick start guide](../profile/keycard-your-quick-start-guide.mdx).
+
+<Admonition type="info">
+  You can only import your Keycard private key using Status desktop.
+</Admonition>
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Desktop">
+    1. From the navigation sidebar, click <ContextTag icon={<WalletDesktopIcon />}>Wallet</ContextTag>.
+    1. Click <ContextTag icon={<AddDesktopIcon />}>Add</ContextTag>.
+    1. Click your profile picture under <ContextTag>Origin</ContextTag>. Under <ContextTag>Import new</ContextTag>, select <ContextTag icon={<ObjectsDesktopIcon />}>Add new master key</ContextTag>.
+    1. Click  <ContextTag>Continue in Keycard settings</ContextTag>. In Settings, click  <ContextTag>Import from Keycard to Status Desktop</ContextTag>.
+    1. Plug in your Keycard reader and insert your Keycard. Enter your Keycard PIN and click  <ContextTag>Next</ContextTag>.
+    1. Click <ContextTag>Name account</ContextTag> (or  <ContextTag>Name accounts</ContextTag> in case you have multiple accounts on this Keycard).
+    1. Choose a name, an account emoji and a highlight colour for your account (or accounts). These are only visible to you. Once you're done, click  <ContextTag>Finalise import</ContextTag>.
+  </TabsContent>
+</Tabs>

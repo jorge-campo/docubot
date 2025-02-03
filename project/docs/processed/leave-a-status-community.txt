@@ -1,0 +1,37 @@
+---
+id: 456
+revision: '1'
+language: en
+title: Leave a Status Community
+author: cheny0, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+You can leave a community at any time, whether the discussions no longer meet your needs, your interests change or you find another community more engaging.
+
+    [Admonition: Tip]
+    If you find yourself overwhelmed by community notifications, there's no need to leave the community. You can [customize your notifications](../profile/configure-community-and-channel-notifications.mdx).
+
+
+## What to expect
+
+- When you leave a community, you stop receiving messages or updates from that community.
+- Status does not notify the community Owner and other members when you leave.
+- You can request to join the community again. Depending on the [community join requirements](./about-the-different-types-of-status-communities.mdx), rejoining might require a new approval process or specific tokens.
+
+## Leave a Status Community
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities".
+1. In the "Communities" list, select the one you want to leave.
+1. Tap "More options".
+1. Select "Leave community".
+1. Tap "Leave community" again to confirm your action.
+[Desktop Instructions]
+1. From the navigation sidebar, right-click the community you want to leave.
+1. Select "Leave community"  or "Close community".
+1. Click "Leave community" again for communities you requested to join.

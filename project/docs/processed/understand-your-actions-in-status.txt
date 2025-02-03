@@ -1,0 +1,103 @@
+---
+id: 193
+revision: '2'
+language: en
+title: Understand your actions in Status
+author: cheny0, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Status is an open-source, decentralized crypto communication app. This article walks you through the actions you can perform within Status and highlights important points to consider.
+
+## Wallet
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | [Use Status Wallet with a Keycard hardware wallet](../profile/keycard-your-quick-start-guide.mdx) | Protect your funds by storing the private keys of your Wallet accounts offline in an air-gapped environment. |
+    | [Create Wallet accounts](../wallet/create-wallet-accounts.mdx) | Once you create a Status profile, you also get a Wallet account. You can create additional accounts to save towards your goals and keep track of your assets. |
+    | [Import an account into your Status Wallet](../wallet/import-an-account-into-your-status-wallet.mdx) | If you already have a crypto account, you can import it into Status to store, receive and send crypto assets. You can also add [watch-only accounts](../wallet/add-watch-only-accounts.mdx) to keep track of their transactions. |
+    | Share your account address in Status Wallet | Sharing your address is safe. Others can't access your funds using just your address. But anyone who has your address can view your transaction history. |
+    | [Buy crypto](../wallet/buy-crypto.mdx) | You can browse and buy crypto assets in Status. |
+    | [Send crypto to someone](../wallet/send-crypto-to-someone.mdx) | Once the transaction is complete, you can't revert it. |
+    | [Swap crypto](../wallet/swap-crypto-in-status-wallet.mdx) | Exchange one type of crypto for another. |
+    | [Bridge crypto](../wallet/bridge-crypto-in-status-wallet.mdx) | You can transfer your crypto assets from one blockchain to another. |
+    | [Set custom network fees](../wallet/set-custom-network-fees.mdx) | The speed of your transaction changes according to the [network fee](../wallet/understand-network-fees.mdx) (gas fee) you pay. |
+
+## Profile and preferences
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | [Use Status profile with a Keycard hardware wallet](../profile/keycard-your-quick-start-guide.mdx) | Protect your profile and your Status Wallet by storing the private keys of your Wallet accounts offline in an air-gapped environment. |
+    | [Sync your profile across devices](../profile/sync-your-profile-across-devices.mdx) | Once you set up the syncing, your Status profile data on your devices are in sync automatically until you unpair the devices. |
+    | [Create additional Status profiles](../profile/create-and-use-additional-status-profiles.mdx) | The login screen shows multiple profiles. Each profile has its own recovery phrase and password. You can switch profiles from the "Profiles" option. |
+    | [View your profile as someone else](../profile/view-your-profile-as-someone-else.mdx) | You can see what your profile looks like to the public, your Status contacts or verified contacts. |
+    | [Remove a Status profile from your profile list](../profile/remove-a-status-profile-from-your-profile-list.mdx) | The Status profile disappears from your profile list on this device. The associated profile data is deleted from this device. If you want the profile to appear again, log in within 30 days. |
+    | [Mute your non-messaging notifications](../profile/customize-mentions-and-other-messages-notifications.mdx) | You get notifications for incoming messages but not for other activities in Status. |
+    | [Log out of Status](../profile/log-out-of-status.mdx) | Your Status profile is logged out from the current device. If you don't log into the profile for 30 days or more (on any device), your crypto funds are safe, but your profile is irrecoverably lost. |
+
+## Contacts
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | [Verify a contact](../profile/verify-your-contacts-identity.mdx) | The contact receives your verification request with your question. You can label the contact as trusted or untrusted based on the answer. |
+    | [Label a contact as trusted or untrusted](../profile/verify-your-contacts-identity.mdx) | You see the corresponding label on the contact's profile. Labeling a contact does not notify the contact. |
+    | [Reject a contact request](../profile/respond-to-a-contact-request.mdx) | Rejecting a contact request does not notify the sender. However, the user can send you a new request every seven days. |
+    | [Block a Status user](../profile/block-or-unblock-someone-in-status.mdx) | Blocked users can't send you messages. Status permanently deletes all messages sent by the blocked user for you. |
+    | [Unblock a Status user](../profile/block-or-unblock-someone-in-status.mdx) | Your communication with the user resumes, but you can't see the messages deleted after blocking the user again. |
+    | [Remove a Status contact](../profile/remove-a-contact-from-status.mdx) | Your direct messages with the user remain. The user can send you a contact request again. |
+
+## Messaging
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | Send a [DM to a contact](../messaging/send-direct-messages-to-your-contacts.mdx) or [a group of contacts](../messaging/create-a-group-chat.mdx) | Only the contact or the group of contacts can receive and view your message. |
+    | [Pin a message](../messaging/pin-a-message.mdx) in a DM, group chat or channel | All members with access to the conversation can see pinned messages and files. |
+    | [React to a message with an emoji](../messaging/react-and-reply-to-messages.mdx) | The emoji is shown under the message. The sender doesn't receive a notification. |
+    | [Reply to a message](../messaging/react-and-reply-to-messages.mdx) | The message appears above your reply, and the message sender receives a notification. |
+    | [Enable rich link previews in messages](../messaging/enable-rich-link-previews-in-messages.mdx) | The web page preview appears under the link. |
+    | Forward a conversation | The recipient can see your conversations with someone else. You can choose to hide your identity in forwarded conversations. |
+    | [Mention someone](../messaging/mention-people-in-status.mdx) | The users receive a notification and see a badge in the chat showing the number of their mentions. |
+    | [Use global mentions](../messaging/mention-people-in-status.mdx) | All users in the community, channel or group chat receive a notification. |
+    | [Mute all notifications](../profile/mute-your-notifications.mdx#mute-all-the-status-app-notifications) | You don't receive any notifications in the Status app. |
+    | [Mute notifications for a channel, community, group chat or direct message](../profile/mute-your-notifications.mdx#mute-specific-notifications) | You don't receive notifications from the muted channel, community, group chat or contact. |
+    | [Close a chat](../messaging/close-a-chat-with-someone.mdx) | The chat disappears from your chats list. It reappears either when the contact sends you a new message or when you decide to send a new message to the contact. |
+    | [Delete a message](../messaging/edit-and-delete-messages.mdx) | You can delete your messages anytime, for yourself or everyone. If the recipients don't get online after you send the message, this message remains in their devices. |
+    | [Clear the chat history](../messaging/clear-the-chat-history.mdx) | If you clear a chat history, you're clearing all messages in the direct message (DM) chat, group chat or community channel just for yourself. Everyone else can still see the full history. |
+
+## Communities
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | [Import a community](../communities/import-a-community-someone-shares-with-you.mdx) | The community page opens, and you can see its introduction and join requirements. |
+    | [Request to join a community](../communities/about-community-request-approvals.mdx) | The community Owner can accept or reject your request. To check the status of your request, go to the community screen. You can send a request again if you are rejected. |
+    | [Choose the Wallet account address you share with a community](../communities/choose-the-wallet-account-address-you-share-with-a-community.mdx) | You can change the addresses you share anytime. However, to maintain access to a token-gated community or channel, or keep your management role in a community, you must share the address with the required tokens at all times. |
+    | Change your community token requirements | Members who do not own the tokens that meet the updated requirements [lose access immediately](../communities/prevent-member-removal-when-you-set-up-token-based-permissions.mdx). |
+    | [Mint a token for your community](../communities/mint-tokens-for-your-community.mdx) | The token is stored in your community and not visible in your wallet. You can use it for [community permissions](../communities/set-up-your-community-permissions.mdx) or [airdrops](../communities/how-to-airdrop-tokens-in-status.mdx). |
+    | [Mint the Owner and TokenMaster tokens](../communities/mint-the-owner-and-tokenmaster-tokens.mdx) | You can use the tokens to grant the [Owner and TokenMaster roles](../communities/about-the-management-roles-in-status-communities.mdx) to help you administer your community. |
+    | [Import a token to your community](../communities/import-tokens-to-your-community.mdx) | The token is stored in your community wallet account. You can use it to [set community permissions](../communities/set-up-your-community-permissions.mdx). |
+    | [Burn your community tokens](../communities/burn-your-community-tokens.mdx) | You permanently remove tokens from circulation, effectively reducing their total supply and increasing token scarcity. |
+    | [Turn off the Community History Service](../communities/turn-off-the-community-history-service.mdx) | Your community members can't receive messages older than 30 days. Also, they can no longer download the existing archives for historical messages. |
+    | [Transfer community ownership](../communities/transfer-your-community-ownership.mdx) | You are no longer the community Owner. The new owner's computer becomes a control node with full control of the community, including its settings, permissions and membership approvals. |
+    | [Co-manage your community](../communities/delegate-management-functions-to-your-community.mdx) | After you delegate administrative functions to other people, they can help you manage the community. |
+    | Voting to make a community [public](../communities/vote-to-make-a-community-private-or-public.mdx) or [featured](../communities/vote-to-feature-a-status-community.mdx) | If the vote passes, the community can be discovered by all users on the Discovery page of the Status app. |
+    | Reject a user's [request to join](../communities/set-up-your-community-join-requests.mdx) your community | The rejected user can't join your community. The user can send a new join request. |
+    | [Kick someone from your community](../communities/kick-or-ban-someone-from-your-community.mdx) | The member loses access to your community but can ask to join the community again. |
+    | [Ban someone from your community](../communities/kick-or-ban-someone-from-your-community.mdx) | The member loses access to your community permanently and can't ask to join the community again. |
+
+## Channels
+
+    [Table]
+    | Action | What happens |
+    |---|---|
+    | [Change your channel token requirements](../communities/set-up-a-token-gated-channel.mdx) | Members who do not own the tokens that meet the updated requirements lose access immediately. |
+    | Send a message in an open channel | All members in the community can read the message when they view the channel. |
+    | Send a message in a token-gated channel. | Only members with access to the channel can read the message. |
+    | Send a message in a view-only channel. | Channel members can view and react to messages, but they can't post messages on the channel. |

@@ -1,0 +1,50 @@
+---
+id: 1321
+revision: '0'
+language: en
+title: Search for conversations and messages in Status
+author: jorge-campo, Fabiomorais87
+roles:
+---
+
+    [Admonition: Info]
+    Currently, you can only search for conversations and messages in the Status desktop app.
+
+
+In the Status app, you can search for specific conversations ([direct messages](./send-direct-messages-to-your-contacts.mdx), [group chats](./create-a-group-chat.mdx) and [channels](../communities/channels-your-quick-start-guide.mdx)) as well as text within those conversations.
+
+## What to Expect
+
+- The [message search](#search-for-messages) function only includes messages in your chat window, including those you can scroll through. Older messages beyond this may not appear.
+- You can search messages in [token-gated communities and channels](../communities/token-based-access-to-communities-and-channels.mdx) as long as you're a community member with access to the channel.
+- On Status desktop, you can use keyboard shortcuts or the "Search" option in the user interface.
+
+## Search for conversations
+
+You can search for conversations in direct messages, group chats and channels you are part of.
+
+[Mobile Instructions]
+    [Admonition: Info]
+    Currently, you can only search for conversations in the Status desktop app.
+    [Desktop Instructions]
+    1. Anywhere on the Status desktop app, press "Ctrl + K" (Windows or Linux) or "Cmd + K" (macOS) to open the search bar.
+    1. Enter the name of the direct message, group chat or channel you want to search for.
+    1. From the results list, click the direct message, group chat or channel you want to open.
+    1. Alternatively, you can use the "Up" and "Down" arrows keys on your keyboard to navigate through the results, and press "Enter" to open the selected conversation.
+
+
+## Search for messages
+
+You can search for messages by entering text you remember from the conversation.
+
+[Mobile Instructions]
+    [Admonition: Info]
+    Currently, you can only search for messages in the Status desktop app.
+    [Desktop Instructions]
+    1. From the conversation you want to search, press "Ctrl + F" (Windows or Linux) or "Cmd + F" (macOS) to open the search bar.
+    1. Enter the text you want to search for.
+    1. Alternatively, you can click "Search" at the top of the content area to open the search bar.
+
+
+    [Admonition: Tip]
+    From the search bar, click the "Drop down" to choose another conversation, or select "Anywhere" to search all conversations.

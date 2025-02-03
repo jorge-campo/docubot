@@ -1,0 +1,72 @@
+---
+id: 760
+revision: '0'
+language: en
+title: How to airdrop the TokenMaster token
+author: jorge-campo, earakel, osmaczko
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only airdrop tokens using the Status desktop app.
+
+
+When you [mint the Owner token](./mint-the-owner-and-tokenmaster-tokens.mdx), you're minting the TokenMaster token simultaneously. After minting, you can airdrop the TokenMaster token to other members so that they can help you manage your community.
+
+    [Admonition: Info]
+    To understand the function of these two tokens in your community, check out [Understand the Owner and TokenMaster tokens](./understand-the-owner-and-tokenmaster-tokens.mdx).
+
+
+Airdropping the TokenMaster token is similar to [airdropping other tokens](./how-to-airdrop-tokens-in-status.mdx) in Status. You can airdrop the token to community and non-community members.
+
+The TokenMaster token has an ∞ infinite supply. This means you can airdrop the token as often as you want and don't need to mint new TokenMaster tokens.
+
+## What to expect
+
+- Only the community Owner can mint and airdrop the TokenMaster token.
+- When you airdrop the TokenMaster token to someone, you grant them the [TokenMaster role](./about-the-management-roles-in-status-communities.mdx) and all the permissions this role has.
+- You can [revoke the TokenMaster role](./revoke-the-tokenmaster-role-from-someone.mdx) anytime by destructing the token remotely.
+- You can airdrop the TokenMaster token on the same network where you minted it. For example, if you minted the token on the Optimism network, you can only airdrop it using Optimism.
+- The network where the airdrop takes place charges you the [airdrop transaction fee](../wallet/understand-network-fees.mdx). Status doesn't charge any fee for airdrops.
+
+## Airdrop the TokenMaster token
+
+To airdrop the TokenMaster token, you need to [mint the token first](./mint-the-owner-and-tokenmaster-tokens.mdx).
+
+### Step 1: Initiate the airdrop
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. At the top of the channel sidebar, click your community logo and then click "Tokens".
+1. Under the "Collectibles" area, click the TokenMaster collectible, identified by the "TMaster-" prefix and the <TokenSaleDesktopIcon /> crypto-coins icon.
+1. In the TokenMaster collectible screen, click "Airdrop" within the action bar.
+1. In the "New airdrop" screen, the "What" variable is pre-filled with the TokenMaster token and network. You can't change these options.
+
+### Step 2: Choose the airdrop recipients
+
+[Desktop Instructions]
+1. In the "New airdrop" screen, click "Add" under the "To" variable.
+1. Choose "ETH addresses" or "Community members".
+1. For Ethereum addresses, paste or manually enter the address hexadecimal values separated by comma (,).
+1. For community members, check the box next to the community members you want to airdrop the TokenMaster token. Check the "Select all" box to select all your community members.
+1. Click "Add members" to confirm your selection.
+1. Click "Add" again if you wish to include additional recipients.
+
+    [Admonition: Tip]
+    The Status app calculates the total network fees as you choose the airdrop recipients.
+
+
+### Step 3: Complete the airdrop transaction
+
+[Desktop Instructions]
+1. In the "Fees" area, select the Status Wallet account you want to use to pay the gas fee.
+1. Review the gas fees required by the network.
+1. Click "Create airdrop".
+1. Verify the total cost of your transaction and click "Sign transaction".
+1. "Authenticate" with your password, biometrics or Keycard. The airdrop starts immediately.
+
+    [Admonition: Info]
+    To review the TokenMaster holders, select the "TMaster-" collectible for your community in the "Tokens" screen.

@@ -1,0 +1,39 @@
+---
+id: 1184
+revision: '0'
+language: en
+title: 'Collectibles: your quick start guide'
+author: Fabiomorais87, cheny0
+---
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157619/Help/Documentation%20Screens/Wallet/1184/1184_Header_light.png)
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Collectibles (also known as non-fungible tokens or NFTs) are unique digital asset in the blockchain network that you can own and use. They represent ownership of assets like digital art, special access to communities or other exclusive content.
+
+In the Status app, you can view your collectibles, [mint collectibles for your community](../communities/mint-tokens-for-your-community.mdx) and [send](./send-crypto-to-someone.mdx) your collectibles to someone else. For example, you can use a collectible to [join a community](../communities/join-a-status-community.mdx) that requires it for access or special permissions.
+
+    [Admonition: Tip]
+    You can [mint collectibles for your community](../communities/mint-tokens-for-your-community.mdx) as a community owner. When you mint a collectible, you create a unique digital token that serves your community's needs, such as rewarding members or granting exclusive access.
+
+
+## View collectibles in Status Wallet
+
+In the Status app, you can choose any Wallet account and select the "Collectibles" tab to view your digital assets. This lets you see which collectibles you have in the selected Wallet account.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157539/Help/Documentation%20Screens/Wallet/1184/1184_1_Screen_Light.png)
+
+
+
+## Collectible Information
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157538/Help/Documentation%20Screens/Wallet/1184/1184_2_Screen_Light.png)
+
+
+
+## Work with collectibles
+
+In the Status app you can work with collectibles by miting, airdroping or sending them to someone. For more inofrmation check out [Understand your token actions in Status](../communities/understand-your-token-actions-in-status.mdx).

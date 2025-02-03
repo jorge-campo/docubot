@@ -1,0 +1,57 @@
+---
+id: 1023
+revision: '1'
+language: en
+title: Buy crypto
+author: earakel, FabioMorais87, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+In Status Wallet, you can buy crypto with fiat currencies such as USD, EUR and others.
+
+    [Admonition: Info]
+    When you buy crypto in Status, you're buying from our partners through a third-party site. In case of any issues, please contact the respective partner's support team.
+
+
+## Buy crypto
+
+[Mobile Instructions]
+1. From the tab bar, tap "Wallet".
+1. Select the account to receive the crypto after your purchase.
+1. Tap "Buy".
+1. Select "One time" or "Recurrent" depending on whether you want to make just one purchase or set up regular automatic purchases.
+1. Select the partner you want to buy crypto from and follow the instructions on their site.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. In the accounts sidebar, select the account to receive the crypto after your purchase.
+1. Under the content area, click "Buy".
+1. Select "One time" or "Recurrent" depending on whether you want to make just one purchase or set up regular automatic purchases.
+1. Select the partner you want to buy crypto from and follow the instructions on their site.
+
+    [Admonition: Tip]
+    If you already bought crypto with another wallet, and you want to send it to your Status Wallet account, see [Send crypto to your Status Wallet](./send-crypto-to-your-status-wallet.mdx).
+
+
+## Buy crypto: FAQ
+
+### Are crypto purchases handled by Status?
+
+No. When you're buying crypto in Status, you're buying from our partners through their sites. If you have any issues or questions, please contact the support team of the partner you bought crypto from (Mercuryo, Ramp or MoonPay).
+
+### Why did I receive a different amount than I expected?
+
+An asset exchange rate is always changing and fluctuating, and blockchain transactions take some time to be processed. If the network is particularly busy while you're placing your order, it can take longer for your transaction to go through.
+
+This can sometimes lead to you receiving more or less than the amount you were expecting. If you have any issues or questions, please contact the support team of the partner you bought crypto from (Mercuryo, Ramp or MoonPay).
+
+### Does Status charge any fees for buying crypto?
+
+Yes. When buying crypto, you are charged a network fee and a processing fee. The network fee is charged by the blockchain, and our partners must pay this fee to send you your crypto.
+
+The processing fee is charged by Status and our partners. The exact fee amount depends on the partner, and it may vary depending on the fiat currency you're using and the payment method.
+
+    [Admonition: Info]
+    For more information on network fees, check out [Understand network fees](./understand-network-fees.mdx).

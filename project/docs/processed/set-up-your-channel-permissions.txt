@@ -1,0 +1,60 @@
+---
+id: 467
+revision: '3'
+language: en
+title: Set up your channel permissions
+author: jorge-campo, Fabiomorais87
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only set up channel permissions using Status desktop.
+
+
+Community Owners can set up permissions using three different variables: "Who holds", "Is allowed to" and "In". Check out the table below for reference.
+
+## What to expect
+
+- Using channel permissions, community Owners can restrict channel access and actions to specific people based on token requirements.
+- Only the community Owner, TokenMaster and admins can set up channel permissions.
+- Use [community permissions](set-up-a-token-gated-community.mdx) to make the entire community private. You can combine community-level and channel-level permission in the same community.
+- When you delete a [token-gated channel](./set-up-a-token-gated-channel.mdx), the channel permissions are lost. If you recreate the channel, you need to set up its permission again.
+
+## Set up channel permissions
+
+[Desktop Instructions]
+1. From the navigation sidebar, click the community where you want to set up a channel permission.
+1. Right-click the channel, then click "Edit channel".
+1. Click "Add permission" to start from scratch, or click "Duplicate" to start from an existing permission.
+1. For the "Who holds" and "Is allowed to" variables, click "Add" next to the variable and choose your values. Use the table below for reference.
+1. Optionally, check "Hide permission" to hide this permission from members who don't meet the requirements.
+1. Click "Create permission" and then click "Save changes". The new permission takes effect immediately.
+
+    [Table]
+    | Variable | Description | Options |
+    |---|---|---|
+    | Who holds | The tokens and amounts (for assets and collectibles) someone needs to hold, or the ENS name someone owns. | Assets, Collectibles, ENS |
+    | Is allowed to | The level of access or role that you assign to someone. | Become admin, Become member, Moderate |
+
+- If you turn off the "Who holds" option, the permission isn't bound to a token. This option only applies to channel-level permissions.
+- For each permission, tokens are linked by "AND" operators. This means the new permission takes effect when the holder owns all the tokens. If you want to use the "OR" operator instead, create additional permissions.
+- You can include up to five tokens in a single permission.
+
+## Edit channel permissions
+
+[Desktop Instructions]
+1. From the navigation sidebar, click the community where you want to edit the channel permission.
+1. Right-click the channel, then click "Edit channel".
+1. In the permission you want to edit, click "Edit".
+1. To customize the permission, follow the steps in the [Set up channel permissions](#set-up-channel-permissions) section.
+
+## Delete channel permissions
+
+[Desktop Instructions]
+1. From the navigation sidebar, click the community where you want to delete the channel permission.
+1. Right-click the channel, then click "Edit channel".
+1. In the permission you want to edit, click "Delete".
+1. Click "Confirm" to delete the permission.

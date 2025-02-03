@@ -1,0 +1,28 @@
+---
+id: 451
+revision: '1'
+language: en
+title: Create a channel
+author: Fabiomorais87, jorge-campo, cheny0
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only create a channel using Status desktop.
+
+
+As a community Owner, you can set up specific permissions to create a token-gated channel. All community members can browse and join open channels. To join token-gated channels, members must meet the [channel requirements](./understand-token-requirements-in-channels.mdx).
+
+## Create a channel
+
+[Desktop Instructions]
+1. From the navigation sidebar, click the community where you want to create a channel.
+1. In the "Community" sidebar, right-click the empty space and select "Create Channel".
+1. Type your "Channel name". Optionally, click "Emoji" to choose an emoji.
+1. Optionally, choose a "Channel colour" and add a "Description" of your channel.
+1. Click "Create Channel".
+
+If you need to set up additional permissions, click "Add permissions" and check out [configure your channel permissions](set-up-your-channel-permissions.mdx). For example, you can create a view-only announcement for your community.

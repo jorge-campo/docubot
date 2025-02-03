@@ -1,0 +1,57 @@
+---
+id: 1026
+revision: '0'
+language: en
+title: Swap crypto in Status Wallet
+author: cheny0
+roles: 
+---
+
+<Admonition type="beta" status="Status app is currently in beta stage">
+  The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+</Admonition>
+
+<Admonition type="info">
+  Currently, you can only swap on the Status desktop app.
+</Admonition>
+
+By swapping, you exchange one asset for another, often for investment purposes or to access specific tokens. For example, you can swap ETH for [SNT](./about-the-status-snt-token.mdx) to join a Status Community that [requires you to hold](../communities/understand-token-requirements-in-communities.mdx) SNT.
+
+<Admonition type="tip">
+  If you want to move your asset to another blockchain network, see [Bridge crypto in Status Wallet](./bridge-crypto-in-status-wallet.mdx) instead. If you are unsure, see [Choose between bridging and swapping assets](./bridge-and-swap-scenarios.mdx).
+</Admonition>
+
+## What to expect
+
+- In Status Wallet, you can swap ERC-20 assets on Ethereum Mainnet, Arbitrum, and Optimism blockchains.
+- You can only swap assets, not collectibles.
+- You can set the maximum slippage to accept when swapping, and the slippage affects the swap fee.
+- You need to pay a swap fee, which is automatically deducted from the amount you're swapping. You pay the fee to the blockchain that hosts your assets and the swap service, not Status Wallet. For more details, check out [About bridge and swap fees](./about-swap-and-bridge-fees.mdx).
+
+## Swap crypto in Status Wallet
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Desktop">
+    1. From the navigation sidebar, click <ContextTag icon={<WalletDesktopIcon />}>Wallet</ContextTag>.
+    1. Select the account that contains the crypto to swap.
+    1. Click <ContextTag icon={<SwapDesktopIcon />}>Swap</ContextTag>.
+    1. Select the network, the asset to swap, and the asset to swap to.
+    1. Enter the amount to swap.
+    1. Click <ContextTag icon={<EditDesktopIcon />}>Edit</ContextTag> to change the maximum slippage. The default slippage is 0.5%.
+    1. Double-check the details and click <ContextTag>Swap</ContextTag>.
+  </TabsContent>
+</Tabs>

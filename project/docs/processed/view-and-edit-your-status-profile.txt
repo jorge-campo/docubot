@@ -1,0 +1,126 @@
+---
+id: 357
+revision: '2'
+language: en
+title: View and edit your Status profile
+author: cheny0, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can't edit some profile sections on Status desktop. Use the Status mobile app to edit them.
+
+
+Your profile serves as a showcase of who you are to other Status users. You can make as many edits as you need, and the profile updates take effect instantly.
+
+    [Admonition: Info]
+    Your Status profile and messages are temporarily saved in the [Waku](https://waku.org) peer-to-peer network and stored permanently on your device. They are not saved on the blockchain or transmitted via the Ethereum network.
+
+
+    [Admonition: Tip]
+    To see how your profile appears to others, check out [View your profile as someone else](./view-your-profile-as-someone-else.mdx).
+
+
+## Edit your Status profile
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap your profile picture.
+1. Tap "Edit profile".
+1. Choose the area you want to edit and follow the corresponding procedure from this table：
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings", and then click "Profile".
+1. In the "Profile" content area, select "Edit".
+1. Choose the area you want to edit and follow the corresponding procedure from this table：
+
+    [Table]
+    | Area to edit | Availability |
+    |---|---|
+    | [Profile picture](./view-and-edit-your-status-profile.mdx#profile-picture) | Mobile and desktop (limited functionality) |
+    | [Name, bio or accent colour](./view-and-edit-your-status-profile.mdx#name-bio-or-accent-colour) | Mobile and desktop (limited functionality) |
+    | [Communities, accounts, collectibles or assets](./view-and-edit-your-status-profile.mdx#communities-accounts-collectibles-or-assets) | Mobile |
+    | [Web links](./view-and-edit-your-status-profile.mdx#web-links) | Mobile and desktop |
+
+### Profile picture
+
+You can use a photo, an image or a collectible as your profile picture. If you use Status desktop, you can only choose an image from your computer.
+
+[Mobile Instructions]
+1. Tap "Camera" in your profile picture.
+1. In the action sheet, choose "Take photo", "Select from gallery" or "Select collectible".
+1. Authorize the Status app to access your camera or photo gallery.
+1. Set a profile picture and tap "Choose".
+[Desktop Instructions]
+1. Click "Edit" in your profile picture.
+1. Choose a picture from your computer.
+1. Adjust your picture size and click "Make this my profile picture".
+
+### Name, bio or accent colour
+
+Use Status mobile if you want to edit the accent colour.
+
+[Mobile Instructions]
+1. In the "Profile" list, choose the item to edit.
+1. Edit the content and click "Save".
+[Desktop Instructions]
+1. Update content in the "Display name" or "Bio" field.
+1. Click "Save changes".
+
+### Communities, accounts, collectibles or assets
+
+Such information is hidden by default. You can choose what to reveal to different groups of Status users.
+
+[Mobile Instructions]
+1. In the "Showcase" list, choose "Communities", "Accounts", "Collectibles" or "Assets".
+1. Tap the item you want to edit.
+1. Choose "Everyone", "Contacts", "ID verified contacts" or "No one".
+
+    [Admonition: Info]
+    ID verified contacts are Status contacts whose identity you have confirmed by [sending them a verification request with a question](./verify-your-contacts-identity.mdx).
+
+
+### Web links
+
+If you want to tell people more about yourself, you can display social media links and other web links on your profile.
+
+[Mobile Instructions]
+1. In the "On the web" list, tap "Links".
+1. Choose the action you want to complete and follow the steps from this table:
+
+    [Table]
+    | Action | Steps |
+    |---|---|
+    | Add links | 1. Tap "Add" and select the type of link to add.
+    1. If you want to add a website, type the name and URL. If you want to add your social media, type your username.
+    1. Tap "Save". |
+    | Reorder links | In the "Links" list, hold and drag the item to the position you want. |
+    | Edit links | 1. Tap the link you want to edit.
+    1. Update the content and tap "Save". |
+    | Delete links | 1. Swipe left over the link to delete and tap "Delete".
+    1. Tap "Delete" again to confirm. |
+    [Desktop Instructions]
+    1. Choose the action you want to complete.
+    1. Follow the steps from this table:
+
+    [Table]
+    | Action | Steps |
+    |---|---|
+    | Add links | 1. Scroll down and click "+ Add more links".
+    1. Select the type of link to add.
+    1. If you want to add a website, type the URL. If you want to add your social media, type your username.
+    1. Click "Add", then click "Save changes". |
+    | Reorder links | 1. Scroll down and find the link to reorder.
+    1. Hold and drag the item to the position you want. |
+    | Edit links | 1. Scroll down and find the link to edit.
+    1. Click "Edit".
+    1. Type the new content and click "Update".
+    1. Click "Save changes". |
+    | Delete links | 1. Scroll down and find the link to delete.
+    1. Click "Edit".
+    1. Click "Delete", then click "Save changes". |
+
+    [Admonition: Caution]
+    Be careful with sharing sensitive information to protect yourself against scams and fraud.

@@ -1,0 +1,71 @@
+---
+id: 333
+revision: '1'
+language: en
+title: Create and use additional Status profiles
+author: cheny0, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Using your Status profile, you can access and use the different Status app features. Unlike traditional centralized apps, which require personal information like a phone number to sign up, Status doesn't ask you for any personal information.
+
+You can create multiple profiles for different purposes. For example, you may want to use different profiles for work, social activities and connecting with families.
+
+    [Admonition: Info]
+    If you want to remove a profile, read [Remove a Status profile](./remove-a-status-profile-from-your-profile-list.mdx).
+
+
+## Create an additional profile
+
+To create an additional profile, you follow a process similar to creating your first profile.
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities", then tap your profile picture.
+1. From the top navigation, tap "Profiles".
+1. Tap "Add", and then tap "Create a new profile".
+1. Read [Create a new Status profile](../getting-started/run-the-status-app-for-the-first-time.mdx#create-a-new-status-profile) and follow the instructions.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings" > "Sign out and quit".
+1. Click "Sign out and quit" again to confirm.
+1. Open the Status app. Click "Cancel" if you're prompted to sign in.
+1. Click "Arrow" and then click "Add new user".
+1. Click "Generate new keys".
+1. Read [Create a new Status profile](../getting-started/run-the-status-app-for-the-first-time.mdx#create-a-new-status-profile) and follow the instructions described in step 2.
+
+    [Admonition: Info]
+    If you want to create a profile using your Keycard, read [Create a Status profile using Keycard](./create-a-status-profile-using-keycard.mdx).
+
+
+## Add an existing profile
+
+If you have another Status profile, you can add it to your device. For example, you may use two different profiles on two devices, but now you want to use both on one device.
+
+[Mobile Instructions]
+If the profile to add is logged in on another device, read [Sync your profile on a new device](./sync-your-profile-across-devices.mdx) and follow the instructions. Otherwise, [log out of Status](./log-out-of-status.mdx) and sign in [using your recovery phrase](../getting-started/create-a-status-profile-using-a-recovery-phrase.mdx) or [Keycard](./create-a-status-profile-using-keycard.mdx).
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings" > "Sign out and quit".
+1. Click "Sign out and quit" again to confirm.
+1. Open the Status app. Click "Cancel" if you're prompted to sign in.
+1. Click "Arrow" and then click "Add existing Status user" to sign in.
+
+    [Admonition: Info]
+    If you want to add an existing Status profile using its recovery phrase, read [Create a Status profile using a recovery phrase](../getting-started/create-a-status-profile-using-a-recovery-phrase.mdx). If you want to add an existing Status profile using your Keycard, read [Create your Status profile using Keycard](./create-a-status-profile-using-keycard.mdx).
+
+
+## Switch profiles
+
+You can switch between Status profiles if you add multiple profiles on your device.
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities", then tap your profile picture.
+1. From the top navigation, tap "Profiles".
+1. Tap the profile to switch to and log in.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings" > "Sign out and quit".
+1. Click "Sign out and quit" again to confirm.
+1. Open the Status app. Click "Cancel" if you're prompted to sign in.
+1. Click "Arrow" to view your profiles and choose the one you want to switch to.
+1. Log in to the profile.

@@ -1,0 +1,56 @@
+---
+id: 1021
+revision: '0'
+language: en
+title: Understand transaction confirmations and statuses
+author: FabioMorais87, cheny0, jorge-campo 
+roles: 
+---
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1730729433/Help/Documentation%20Screens/Wallet/1021/1021_Header_light.png)
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+When you [send crypto](./send-crypto-to-someone.mdx) or [mint a token](../communities/mint-tokens-for-your-community.mdx), you create a transaction in the blockchain network. Before the network can validate this transaction, it must undergo a series of confirmations.
+
+The Status app provides real-time updates on your transaction status. It primarily uses [Grove](https://www.grove.city/), with [Infura](https://www.infura.io/) as a backup.
+
+## The basics
+
+- No matter which wallet app you use, the Ethereum network must validate every transaction you send.
+- You can track the [different statuses](#transaction-confirmations-and-statuses) of your transactions (pending, confirmed, finalized or failed) in Status Wallet.
+- In the [Ethereum blockchain](../getting-started/about-the-ethereum-blockchain.mdx), a commonly adopted convention is to wait four confirmations to ensure the transaction is securely included in the blockchain.
+- In Layer-2 networks (like Optimism and Arbitrum) transactions are typically finalized within seconds or minutes.
+
+    [Admonition: Info]
+    If your transaction fails, you still pay gas fees for the network's effort to process it.
+
+
+## Confirmation and finalization
+
+Transaction confirmation and finalization are two different statuses of transaction processing. Understanding these statuses helps you track the progress and security of your transaction, no matter which crypto wallet you use.
+
+On Ethereum, your transaction is confirmed when it is included in a block on the public ledger (the [blockchain](../getting-started/about-the-ethereum-blockchain.mdx)). Each subsequent block added to the chain after this provides additional confirmations, increasing the security and reliability of the transaction. Finalization occurs when the transaction is considered irreversible (typically, after 64 confirmations).
+
+Layer-2 networks like Arbitrum or Optimism confirm transactions almost instantly. However, withdrawing funds to Ethereum requires a seven-day waiting period to ensure fraud checks are complete before the transaction is finalized.
+
+    [Admonition: Info]
+    While both Arbitrum and Optimism use a seven-day waiting period, the user experience in different wallets may vary slightly due to different implementations.
+
+
+## Transaction confirmations and statuses
+
+This table summarizes the scenarios for understanding transaction confirmations and statuses.
+
+    [Table]
+    | Status | Description | Ethereum | Arbitrum/Optimism |
+    |---|---|---|---|
+    | Pending | Transaction sent but not yet included in a block | 0 confirmations | 0 confirmations |
+    | Confirmed | Transaction included in a block but not yet finalized | Typically after 4 block confirmations | 1 confirmation |
+    | Finalized | Transaction is complete and irreversible | After 64 block confirmations | Finalized on the L2-chain within seconds.  Withdrawals to Ethereum finalize after a 7-day period. |
+    | Failed | Transaction did not succeed due to an error | Transaction not included in a block | Transaction not processed on the Layer-2 chain |
+
+    [Admonition: Info]
+    Finalized and failed are mutually exclusive transaction statuses.

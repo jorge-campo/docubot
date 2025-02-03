@@ -1,0 +1,49 @@
+---
+id: 548
+revision: '2'
+language: en
+title: Change a token-gated community to open
+author: jorge-campo, cheny0
+roles:
+  - Owner
+  - TokenMaster
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only set up token-gated and open communities using Status desktop.
+
+
+In a [token-gated community](./token-based-access-to-communities-and-channels.mdx), users should meet specific token requirements to join. As a community Owner or TokenMaster, you can change a token-gated community into an open one so that anyone can join even if they don't own any tokens.
+
+    [Admonition: Info]
+    In addition to token requirements, you can require [manual approval](./about-community-request-approvals.mdx) of new join requests. Token requirements and manual approval work independently.
+
+
+You might want to transition from a token-gated community to an open one for various reasons. For instance, you might want to grow your community by attracting new members, or perhaps you want to make your community more inclusive by removing the entry barrier.
+
+    [Admonition: Tip]
+    You can use token-gated communities and channels separately. For example, you can set up an open Status Community but [restrict access to certain channels](./set-up-a-token-gated-channel.mdx).
+
+
+## What to expect
+
+- To transform your token-gated community into an open one, remove all the "Become member" community permissions.
+- Any token-gated channel within your community remains token-gated unless you [change it to open](./change-a-token-gated-channel-to-open.mdx).
+- If your community requires new members to send a [join request](./about-community-request-approvals.mdx), you still need to [approve new member requests](./set-up-your-community-join-requests.mdx) manually.
+- You can change your community from token-gated to open at any time.
+
+## Change a token-gated community to open
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. At the top of the channel sidebar, click your community logo and then click "Permissions".
+1. In the list of permissions, locate the "Become member" permission and click "Delete".
+1. Click "Confirm".
+1. If you have more than one "Become member" permission, delete each one.
+
+    [Admonition: Info]
+    If your community doesn't have any permissions listed in the "Permissions" screen, it's already an open community.

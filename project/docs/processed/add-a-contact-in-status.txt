@@ -1,0 +1,39 @@
+---
+id: 307
+revision: '2'
+language: en
+title: Add a contact in Status
+author: earakel, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+To start a chat with someone, you first need to add them to your contacts.
+
+After sending a contact request, wait for the other person to accept it. Once they do that, both you and them can send each other [direct messages](send-direct-messages-to-your-contacts.mdx) and invite each other to [group chats](add-members-to-a-group-chat.mdx).
+
+If the person you want to chat with doesn't have a Status profile yet, you can [invite them to join Status](../getting-started/invite-friends-to-status.mdx).
+
+To add someone to your contact list, you need their [chat key](../profile/understand-your-status-keys-and-recovery-phrase.mdx), which represents their public Status profile. They can simply send it to you, so ask them to [share their Status profile with you](../profile/share-your-status-profile.mdx). You can also use their QR code to add them to contacts.
+
+    [Admonition: Tip]
+    To add someone you know from a group chat or community, simply select their name and then select "Send contact request".
+
+
+## Add a contact
+
+[Mobile Instructions]
+1. Ask the person you want to add to your contacts to share their profile.
+1. From the tab bar, tap "Messages".
+1. Tap "Add" and select "Add a contact".
+1. Paste the link to that person's profile into the field or tap "<ScanIcon />" to scan the QR code.
+1. Tap "View profile" > "Send contact request".
+1. In your introductory message, briefly explain who you are and why you want to add them to your contacts. This is the first message your contact sees from you. Once you're done, tap "Send contact request".
+[Desktop Instructions]
+1. Ask the person you want to add to your contacts to share their profile.
+1. From the navigation sidebar, click "Chat".
+1. Click "Start chat".
+1. Paste the link to that person's profile into the "To" field.
+1. In your introductory message, briefly explain who you are and why you want to add them to your contacts. This is the first message your contact sees from you. Once you're done, click "Send contact request".

@@ -1,0 +1,39 @@
+---
+id: 107
+revision: '0'
+language: en
+title: Customize membership request notifications
+author: Fabiomorais87
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can only customize membership request notifications in the Status mobile app.
+
+
+If [manual request approval](../communities/set-up-your-community-join-requests.mdx) is required to join your community, you receive a notification every time someone requests to join.
+
+There are three notification options you can choose from: "Notification on", "In notification centre only" and "Notifications off". For each one of them, follow the same procedure and use the table below as a reference.
+
+    [Admonition: Info]
+    Since there's currently no way to customize notifications in the Status Desktop app, you can [mute all notification](../profile/mute-your-notifications.mdx) if you are receiving too many notification requests.
+
+
+## Customize membership request notifications
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities".
+1. Tap the community you want to customize membership request notifications and, in the top navigation, tap "More options".
+1. Tap "Notification settings".
+1. Select "Join Requests".
+1. Choose your notification preference.
+
+    [Table]
+    | Preference | Description |
+    |---|---|
+    | Notifications on | Turn this on if you want to see notifications banners and lock screen notifications. |
+    | In notification centre only | Turn this on to receive subtle notifications without banners. You need to unlock your phone to see your notifications. |
+    | Notifications off | Turn this off if you don't want to receive notifications. |

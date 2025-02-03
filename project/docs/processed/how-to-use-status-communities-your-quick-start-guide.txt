@@ -1,0 +1,82 @@
+---
+id: 145
+revision: '3'
+language: en
+title: 'How to use Status Communities: your quick start guide'
+author: jorge-campo, cheny0
+roles:
+---
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1693319365/Help/Documentation%20Screens/Getting%20Started/145/145_Header_Light.png)
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Status is an app that combines a non-custodial [crypto wallet](../wallet/status-wallet-your-quick-start-guide.mdx), [privacy-first messaging](../messaging/about-status-messages.mdx) and a community platform.
+
+With Status Communities, you can create, join and engage in groups centred around shared interests or topics. You can [create your community](./create-a-status-community.mdx) or [become part of an existing one](./join-a-status-community.mdx).
+
+    [Admonition: Info]
+    Status Communities are decentralized and self-sovereign. This means Owners control their communities, not Status. We've built the platform, but control is in your hands. For more information, check out [What is Status](../getting-started/what-is-status.mdx).
+
+
+## Discover Communities
+
+When you open the Status app, the <CommunitiesIcon /> Communities option in the tab bar brings the list of communities where you participate. You can also discover new communities to join in the community directory.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1702481878/Help/Documentation%20Screens/Getting%20Started/145/01%20Communities%20Home/145_2_Screen_Light.png)
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1702481878/Help/Documentation%20Screens/Getting%20Started/145/01%20Communities%20Home/145_3_Screen_Light.png)
+
+
+
+## Join communities
+
+In Status, community Owners have complete control over how users join their communities and can restrict access [using tokens](examples-of-token-based-access-in-communities-and-channels.mdx).
+
+In token-gated communities, members must own and maintain the required tokens to join and participate in the community. In addition to token requirements, community Owners may require [manual approval to join](./about-community-request-approvals.mdx) their communities.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1693378438/Help/Documentation%20Screens/Getting%20Started/145/02%20Token%20Gated%20Communities/145_2_Screen_Light.png)
+
+
+
+    [Admonition: Info]
+    When you join a token-gated community, your tokens work as proof of ownership and stay in your Status Wallet. They are never transferred to the community Owner, Status or anyone else.
+
+
+## Participate in channels
+
+Status Communities contain [channels](./channels-your-quick-start-guide.mdx). Think of channels as rooms, each with a unique theme, helping keep discussions focused and organized.
+
+Community Owners can also control [access to channels using tokens](./set-up-a-token-gated-channel.mdx) or other permissions. Some channels might be open to all members, while others can be restricted or read-only.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1693378557/Help/Documentation%20Screens/Getting%20Started/145/03%20Token%20Gated%20Channels/145_3_Screen_Light.png)
+
+
+
+    [Admonition: Info]
+    When you join a token-gated community, your tokens work as proof of ownership and stay in your Status Wallet. They are never transferred to the community Owner, Status or someone else.
+
+
+    [Admonition: Tip]
+    Use your [notification settings](../profile/configure-community-and-channel-notifications.mdx) to customize the community and channel notifications.
+
+
+## Communities' privacy and security
+
+In a token-gated community, only those possessing the required tokens can access the community content. No outside party (not even Status) can gain access to or view the community exchanges and interactions.
+
+When you participate in a channel, your messages are visible to anyone accessing the same channel. In communities or channels, you don't see [the users you have blocked](../profile/block-or-unblock-someone-in-status.mdx), but a blocked user can still see messages you send in the community.
+
+    [Admonition: Info]
+    Your Status profile is visible to anyone in Status, and you can customize [what information others can see](../profile/view-your-profile-as-someone-else.mdx) in your profile.
+
+
+Status messaging uses decentralized peer-to-peer (P2P) technology and strong end-to-end encryption (E2EE) to ensure the privacy and security of your communication. Your communication in channels is encrypted and available only to the channel members.
+
+## Losing access to communities
+
+Only the community Owners regulate access to their communities, not Status. After you join a community, its Owner can [kick you out or ban you](./kick-or-ban-someone-from-your-community.mdx) from the community at their discretion.
+
+You can also lose access to token-gated communities or channels when you no longer hold the [required tokens](./understand-token-requirements-in-communities.mdx).

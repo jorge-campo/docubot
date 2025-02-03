@@ -1,0 +1,64 @@
+---
+id: 477
+revision: '1'
+language: en
+title: Invite people to a channel
+author: Fabiomorais87
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Whether you're a community Owner or a member, you can invite anyone to any channel you're a member of. For token-gated channels, the person you invite must hold the required token to join the channel.
+
+    [Admonition: Info]
+    To join the channel, the person you invite must be a community member.
+
+
+## Invite options
+
+There are three different options to invite someone to a channel.
+
+    [Table]
+    | Option | Description | Works with |
+    |---|---|---|
+    | Invite your Status contacts | You can share the channel with anyone on your Status contact list | Mobile and desktop |
+    | Show QR code | Show the channel's QR code to the person you want to invite | Mobile |
+    | Share a link | Share the link via messaging apps or social media | Mobile and desktop |
+
+## Invite people to a channel
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities".
+1. Tap the community with the channel you want to share.
+1. In the channel list, long press the channel you want to share.
+1. In the action sheet, choose an option and proceed as follows:
+
+    [Table]
+    | Option | Steps |
+    |---|---|
+    | Invite your Status contacts | 1. Select "Invite people from contacts list".
+    1. Check the boxes next to the contacts you want to invite.
+    1. Tap "Invite users". |
+    | Show QR code | 1. Select "Show QR code".
+    1. Show the QR code to the person you want to invite. |
+    | Share a link | 1. Select "Share channel".
+    1. Share the channel link via social media, messaging apps or any other app you prefer. |
+    [Desktop Instructions]
+    1. From the navigation sidebar, click the community with the channel you want to share.
+    1. In the channel sidebar, right-click the channel and then select "Share channel".
+    1. Choose the contacts or copy the link and proceed as follows:
+
+    [Table]
+    | Option | Steps |
+    |---|---|
+    | Invite your Status contacts | 1. In the "Invite Contacts" pop-up window, type the names of your contacts in the search bar or check the boxes next to the names.
+    1. Click "Next".
+    1. Optionally, type an invitation message.
+    1. Click "Send Invites". |
+    | Share a link | 1. In the "Invite Contacts" pop-up window, click "Copy" next to the link.
+    1. Switch to the app where you want to share the link and paste it there. |
+
+    [Admonition: Tip]
+    After opening the link or scanning the QR code, people can install Status if they haven't already.

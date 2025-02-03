@@ -1,0 +1,43 @@
+---
+id: 285
+revision: '1'
+language: en
+title: React and reply to messages
+author: earakel, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+In Status, you can reply to messages and react with emojis.
+
+Replies are useful when you want to make it clear who you are responding to, as well as receive a faster reply from them. The users you're replying to receive notifications in their [Notification Centre](../profile/your-status-notifications-guide.mdx).
+
+Reactions are helpful when you want to show others that you saw their message. Users whose messages you react to do not receive any notifications.
+
+## React to messages
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to react to a message.
+1. In the chat or community channel, long press the message.
+1. Choose an emoji to react with and tap it.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to react to a message.
+1. In the chat or community channel, hover over the message and click "Add reaction".
+1. Choose an emoji to react with and click it.
+
+## Reply to messages
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to reply to a message.
+1. In the chat or community channel, long press the message.
+1. Tap "Reply".
+1. Type your reply and tap "Send".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to reply to a message.
+1. In the chat or community channel, hover over the message and click "Reply".
+1. Type your reply and press "Enter" on your keyboard.
+
+    [Admonition: Tip]
+    You can reply with text, emojis, images and stickers.

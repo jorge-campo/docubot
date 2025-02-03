@@ -1,0 +1,32 @@
+---
+id: 585
+revision: '2'
+language: en
+title: Create Wallet accounts
+author: earakel, jorge-campo
+---
+
+Once you [create your Status profile](../getting-started/run-the-status-app-for-the-first-time.mdx#create-a-new-status-profile), you automatically get a Status Wallet account. You can create extra accounts if you want to. For example, you can use them to save towards specific goals or to keep track of your short-term and long-term token investments.
+
+    [Admonition: Info]
+    To import your existing crypto account, check out [Import an account into your Status Wallet](./import-an-account-into-your-status-wallet.mdx).
+
+
+## About your wallet accounts
+
+Your Status Wallet accounts are all associated with the same [recovery phrase](../profile/understand-your-status-keys-and-recovery-phrase.mdx). If you [lose your recovery phrase](../profile/if-you-lose-your-status-password-or-recovery-phrase.mdx), you can lose access to all your Status Wallet accounts.
+
+Each account has a different [Ethereum address](./about-your-wallet-accounts-and-addresses.mdx). This means that to transfer crypto between your accounts, you need to [send crypto](./send-crypto-to-someone.mdx) to them the same way as you would send it to someone else's wallet.
+
+## Create an account
+
+[Mobile Instructions]
+1. From the tab bar, tap "Wallet".
+1. Swipe left across the accounts until you reach the end, then tap "Add" > "Add account".
+1. Choose an account emoji, a name, a highlight colour for this account and "Slide to create an account".
+1. Enter your profile password and tap "Confirm".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. On top of the Wallet sidebar, click "Add".
+1. Enter a name for your account and choose a highlight colour. Only you can see the name and the colour.
+1. Click "Add account".

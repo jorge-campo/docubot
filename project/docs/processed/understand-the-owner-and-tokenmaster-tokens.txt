@@ -1,0 +1,70 @@
+---
+id: 753
+revision: '0'
+language: en
+title: Understand the Owner and TokenMaster tokens
+author: jorge-campo, cheny0, osmaczko
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+To administer your community in Status, you can [mint the Owner and TokenMaster tokens](./mint-the-owner-and-tokenmaster-tokens.mdx). With the Owner token, you have complete control over the community, including [transferring your community ownership](./transfer-your-community-ownership.mdx) or [minting other tokens](./mint-tokens-for-your-community.mdx).
+
+When you [mint the Owner token](./mint-the-owner-and-tokenmaster-tokens.mdx), you also mint the TokenMaster token in the same process. After minting, you can [airdrop the TokenMaster token](./how-to-airdrop-the-tokenmaster-token.mdx) to other community members and share the community administration workload.
+
+    [Admonition: Info]
+    Creating a community doesn't create the Owner or TokenMaster tokens automatically.
+
+
+## Why mint the Owner and TokenMaster tokens?
+
+You become the [community owner](./permissions-by-role-in-status-communities.mdx) and your computer becomes the [community control node](./about-the-control-node-in-status-communities.mdx) when you create a Status Community.
+
+Minting your community Owner and TokenMaster tokens is optional but has significant advantages. With the Owner token, you can:
+
+- Restore your community ownership if you lose access to your computer.
+- Transfer your community ownership to someone else.
+- Mint and airdrop other community tokens.
+- Assign the TokenMaster token and role to someone to help you administer the community.
+
+    [Admonition: Caution]
+    If you don't mint the Owner token and your computer becomes unavailable, you lose access to your community forever.
+    In this scenario, the community remains active with [minimal functionality](./common-issues-when-the-community-control-node-is-offline.mdx), but without Owner and control node (orphaned community).
+
+
+## Owner and TokenMaster tokens features
+
+The Owner and TokenMaster tokens have different functions and properties. Check out these tables to understand the differences between the two tokens.
+
+    [Admonition: Tip]
+    You can identify the Owner token by the <CrownIcon /> crown icon. The TokenMaster token has a <TokenSaleDesktopIcon /> crypto-coins icon.
+
+
+### Community administration features
+
+    [Table]
+    | Token feature | Owner token | TokenMaster token |
+    |---|---|---|
+    | Community ownership | Holder is the owner | Holder is not the owner |
+    | Transferable | Yes, to change community ownership | Non-transferrable (soulbound) |
+    | Permissions granted | Owner role with full privileges | TokenMaster role |
+    | Delegate administrative functions | Holder can designate TokenMasters and Admins | Holders can designate Admins |
+    | Restore community | Yes | No |
+    | Replace the community control node | Yes | No |
+
+    [Admonition: Info]
+    Check out [About the management roles in Status Communities](./about-the-management-roles-in-status-communities.mdx) to learn the differences among the Owner, TokenMaster and Admin roles.
+
+
+### Token administration features
+
+    [Table]
+    | Token feature | Owner token | TokenMaster token |
+    |---|---|---|
+    | Supply | Only one | Unlimited |
+    | Token minting | Holder can mint community tokens | Holders can mint community tokens, except the Owner and TokenMaster tokens |
+    | Airdrop and destroy community tokens | Holder can airdrop and destroy community tokens | Holders can airdrop and destroy community tokens, except the TokenMaster token |
+    | Token assignment | Automatic airdrop to Owner's Status Wallet | Owner manually airdrops the token to holders |
+    | Wallet transaction after minting the token | Minting and airdrop transactions | Minting transaction |

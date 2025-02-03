@@ -1,0 +1,49 @@
+---
+id: 387
+revision: '1'
+language: en
+title: Set up your community join requests
+author: Fabiomorais87, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only manage community join requests in the Status desktop app.
+
+
+You can set up manual or automatic [approval join requests](./about-community-request-approvals.mdx) for your community. All requests to join your community are automatically approved by default, but you can enable manual approval.
+
+With the manual approval option, you receive a notification whenever someone requests to join your community. This way, you can decide whether to accept, reject or ignore the request.
+
+## What to expect
+
+- Users don't receive a notification when a community owner or Admin rejects their join request. Users receive a notification only when the request to join is accepted.
+- The community screen is where the user can find out if their request was approved or denied.
+- If your [control node is offline](common-issues-when-the-community-control-node-is-offline.mdx) (for example, when you turn off your computer or close the Status desktop app), automatic join requests are rejected, and manual join requests time out in seven days. Keep Status desktop running with your owner profile online daily, or at least once every six days.
+- Besides manual approval, you can set up [token requirements](./understand-token-requirements-in-communities.mdx) to join communities. Manual approval and token requirements work independently.
+
+    [Admonition: Info]
+    When joining a community, Status considers token requirements before membership requests.
+
+
+## Set up the approval request option
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. At the top of the channel sidebar, click your community logo.
+1. Click "Overview".
+1. At the top of the content area, click "Edit Community".
+1. Check or uncheck the "Request to join required" box to enable or disable manual approval.
+1. Click "Save changes".
+
+## Reject or accept community join requests
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. At the top of the channel sidebar, click your community logo.
+1. Click "Members".
+1. At the top of the content area, select "Pending requests".
+1. Hover over the user and select "Accept" or "Reject", depending on your decision.

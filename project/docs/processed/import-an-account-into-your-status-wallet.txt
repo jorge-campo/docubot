@@ -1,0 +1,74 @@
+---
+id: 442
+revision: '1'
+language: en
+title: Import an account into your Status Wallet
+author: earakel, jorge-campo
+roles: 
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+To use your existing wallet account with Status Wallet, import either your recovery phrase or private key. Both options are valid and retrieve the same account for you.
+
+{/*
+  The key difference is that if you import your recovery phrase, you can choose to set a [custom derivation path](./about-custom-derivation-paths.mdx). You can't do this with your private key. If you don't want to change your addresses, it doesn't matter whether you import your recovery phrase or private key.
+*/}
+
+## Import an account using your recovery phrase
+
+[Mobile Instructions]
+1. From the tab bar, tap "Wallet".
+1. Swipe left across the accounts until you reach the end, then tap "Add" > "Add account".
+1. Under "Origin", tap "Add" > "Import using recovery phrase"
+1. Type or paste your recovery phrase into the field and tap "Continue".
+1. Set a name for this key and tap "Continue". This name is only visible to you.
+1. Choose a name and a highlight colour for your account. These are only visible to you. Swipe to create your account.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. Click "Add".
+1. Click your profile picture under "Origin". Under "Import new", select "Add new master key".
+1. Select "Import using your seed phrase".
+1. Choose your recovery phrase's length (12, 18 or 24 words) and paste it into the fields.
+1. Set a name for this key and click "Continue". This name is only visible to you.
+
+    [Admonition: Caution]
+    Keep your recovery phrase safe and never share it with anyone. Status will never ask you for this information, and anyone who does is trying to steal your profile and wallet funds.
+
+
+## Import an account using your private key
+
+A private key is a string of letters and numbers that allows you to access and manage your crypto.
+
+    [Admonition: Caution]
+    Never share your private key with anyone. Whoever has your private key can access and manage your crypto. Status will never ask you for your key, and anyone who does is trying to steal your profile and wallet funds.
+
+
+### Import your private key manually
+
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. Click "Add".
+1. Click your profile picture under "Origin". Under "Import new", select "Add new master key".
+1. Select "Import private key".
+1. Paste your private key into the field.
+1. Set a name for this key and click "Continue". This name is only visible to you.
+
+### Import your private key from your Keycard
+
+Keycard is a hardware wallet you can use with your Status app for extra security. For more details, check out [Keycard: your quick start guide](../profile/keycard-your-quick-start-guide.mdx).
+
+    [Admonition: Info]
+    You can only import your Keycard private key using Status desktop.
+
+
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. Click "Add".
+1. Click your profile picture under "Origin". Under "Import new", select "Add new master key".
+1. Click  "Continue in Keycard settings". In Settings, click  "Import from Keycard to Status Desktop".
+1. Plug in your Keycard reader and insert your Keycard. Enter your Keycard PIN and click  "Next".
+1. Click "Name account" (or  "Name accounts" in case you have multiple accounts on this Keycard).
+1. Choose a name, an account emoji and a highlight colour for your account (or accounts). These are only visible to you. Once you're done, click  "Finalise import".

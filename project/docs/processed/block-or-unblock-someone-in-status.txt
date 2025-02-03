@@ -1,0 +1,102 @@
+---
+id: 325
+revision: '1'
+language: en
+title: Block or unblock someone in Status
+author: cheny0
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+You can block a stranger or an existing contact to stop receiving harmful content and excluding the user entirely from your experience with Status.
+
+    [Admonition: Caution]
+    Blocking someone deletes all messages from the user. Status can't recover them for you.
+
+
+## What to expect
+
+- Blocked users don't receive any notifications. They only know that you have stopped messaging them.
+- If blocked users check your profile, they can see information you made public, and they can see you are not their contact.
+- You can't see any future messages sent by blocked users, including direct messages and messages in mutual group chats, channels and communities.
+- Blocked users can see your previous direct messages and future messages you send in mutual group chats, channels and communities.
+- Status permanently deletes for you all messages sent previously by the blocked user, including direct messages and messages in mutual group chats, channels and communities.
+- Unblocking a user does not restore deleted messages.
+- Status stops showing blocked users as mutual contacts.
+
+## Block an existing contact
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap "Contacts", then tap the profile picture of the contact you want to block.
+1. From the top navigation, tap "More options".
+1. Tap "Block User".
+1. Check the two boxes if you want to remove the user's identity verification and remove the user from your contacts.
+1. Tap "Block".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Messages".
+1. In the "Messages" sidebar, click the user you want to block.
+1. At the top of the content area, click "More options" and select "View profile".
+1. On the pop-up, click "More options" and select "Block User".
+1. Click "Block User".
+
+## Block a stranger
+
+A stranger is a user who is not your contact. You can encounter a stranger in a group chat, community or channel. You can receive a contact request from a stranger.
+
+    [Admonition: Tip]
+    If you see a spammer in a community channel, you can block the spammer to stop seeing their messages across all communities.
+
+
+[Mobile Instructions]
+### Step 1: Find the user to block
+
+    [Table]
+    | Context | Steps |
+    |---|---|
+    | Mutual group chat | 1. From the tab bar, tap "Messages" > "Groups".
+    1. Long press the group chat.
+    1. Tap "Group details". |
+    | Mutual community or channel | 1. From the tab bar, tap "Communities" > "Joined".
+    1. Long press the community.
+    1. Tap "View members". |
+    | Contact request | From the tab bar, tap "Messages" > "Contacts" > "Pending requests". |
+
+### Step 2: Block the user
+
+1. Tap the profile picture of the user.
+1. From the top navigation, tap "More options".
+1. Tap "Block User".
+1. Tap "Block".
+[Desktop Instructions]
+### Step 1: Find the user to block
+
+    [Table]
+    | Context | Steps |
+    |---|---|
+    | Mutual group chat | 1. From the navigation sidebar, click "Messages".
+    1. In the "Messages" sidebar, click the group chat.
+    1. If you don't see the "Members" right sidebar, click "Members" at the top of the content area. |
+    | Mutual community or channel | 1. From the navigation sidebar, click the community.
+    1. If you don't see the "Members" right sidebar, click "Members" at the top of the content area. |
+    | Contact request | Go to "Notifications" > "Contact requests". |
+
+### Step 2: Block the user
+
+1. Click the profile picture of the user you want to block.
+1. On the pop-up, click "More options" and select "Block User".
+
+## Unblock a user
+
+[Mobile Instructions]
+1. Tap your profile picture.
+1. Go to "Privacy and security" > "Blocked and rejected users".
+1. Tap the profile picture of the user you want to unblock.
+1. Tap "Unblock".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Messages".
+1. Go to "Messaging" > "Contacts, Requests, and Blocked Users".
+1. In the "Messaging" content area, select "Blocked".
+1. On the right of the contact you want to unblock, click "More options" and select "Unblock User".

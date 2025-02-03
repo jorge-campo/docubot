@@ -1,0 +1,81 @@
+---
+id: 75
+revision: '2'
+language: en
+title: Send crypto to someone
+author: earakel, jorge-campo, Fabiomorais87
+---
+
+You can send crypto to other people using your [Status Wallet](./status-wallet-your-quick-start-guide.mdx). The person you're sending crypto to doesn't need to be a Status Wallet user.
+
+If you want to transfer funds between several blockchain networks, Status Wallet automatically determines the most efficient route and calculates the [network fees](./understand-network-fees.mdx).
+
+<Admonition type="info">
+  Status Wallet doesn't charge any extra transaction fees. The network fees you're paying to send transactions are charged by the Ethereum blockchain. For more details, check out [Understand network fees](./understand-network-fees.mdx).
+</Admonition>
+
+## What to expect
+
+- You can send crypto to any Ethereum address. This means the person receiving your crypto doesn't need to be on your contact list. They can also use any other wallet app they prefer.
+- Status Wallet doesn't support non-Ethereum-based assets. If you send crypto to a non-Ethereum address (for example, a Bitcoin address), you may lose your funds. To verify the address, you can look it up on a [block explorer](./understand-block-explorers.mdx).
+- To send crypto to someone, you need to pay network fees. No matter which asset or token you're sending, you can only pay network fees in ETH. For more details, check out [Understand network fees](./understand-network-fees.mdx).
+
+## Advanced and Custom settings
+
+There are two transaction modes available in Status Wallet: Simple and Advanced. If you're sending crypto within the same network (for example, Ethereum to Ethereum or Optimism to Optimism), use the Simple mode.
+
+If you're transferring crypto between different networks, Status Wallet automatically determines the most efficient way to bridge and transfer your funds. If you need more customization or want more control, you can use the Advanced mode.
+
+The Advanced mode lets you choose which networks the recipient receives crypto on and disable unwanted chains. In Custom mode, you can also set custom amounts per each network. For more details on how to use the Custom and Advanced modes, see [Use Advanced transaction settings](./use-advanced-transaction-settings.mdx).
+
+<Admonition type="info">
+  Currently, the Advanced mode is only available as a beta feature.
+</Admonition>
+
+## Send crypto
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile">
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Mobile">
+    1. From the tab bar, tap  <ContextTag icon={<WalletIcon />}>Wallet</ContextTag>.
+    1. Select the account you want to send crypto from and tap <ContextTag icon={<SendIcon />}>Send</ContextTag>.
+    1. In the <ContextTag>Send To</ContextTag> page, enter the receiving address and tap <ContextTag>Continue</ContextTag>. You can:
+       - <ContextTag>paste</ContextTag> the receiving address from the clipboard or <ContextTag icon={<ScanIcon />}>scan</ContextTag> its QR code.
+       - Use a Status contact's name or an ENS name.
+       - Choose from a <ContextTag>Recent</ContextTag> address, one of your <ContextTag>Saved</ContextTag> addresses or one of your <ContextTag>Accounts</ContextTag>.
+    1. From the token list, select which asset or collectible you want to send.
+    1. Enter the amount to send. The Status app automatically calculates the most efficient way to send your funds. Tap <ContextTag>Review send</ContextTag>.
+    1. Double-check the transaction details and then <ContextTag>Slide to send</ContextTag>.
+    1. Authenticate using your password, biometrics or Keycard.
+  </TabsContent>
+
+  <TabsContent value="Desktop">
+    1. From the navigation sidebar, click <ContextTag icon={<WalletDesktopIcon />}>Wallet</ContextTag>.
+    1. Select the account you want to send crypto from and click <ContextTag icon={<SendDesktopIcon />}>Send</ContextTag>.
+    1. From the token list, select which asset or collectible you want to send.
+    1. Enter the amount to send.
+    1. In the <ContextTag>To</ContextTag> enter the receiving address. You can:
+       - <ContextTag>Paste</ContextTag> the receiving address from the clipboard.
+       - Use a Status contact's name or an ENS name.
+       - Choose from a <ContextTag>Recent</ContextTag> address, one of your <ContextTag>Saved</ContextTag> addresses or one of your <ContextTag>Accounts</ContextTag>.
+    1. Double-check everything, including the network fees, and click <ContextTag icon={<PasswordDesktopIcon />}>Send</ContextTag>.
+    1. Authenticate with biometrics (fingerprint, face or other method), password or your Keycard.
+  </TabsContent>
+</Tabs>
+
+<Admonition type="caution">
+  Double-check the address you're sending crypto to and make sure it's an Ethereum address. Once you send a blockchain transaction, there's no way to cancel it.
+</Admonition>

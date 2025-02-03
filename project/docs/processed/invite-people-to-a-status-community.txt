@@ -1,0 +1,65 @@
+---
+id: 438
+revision: '1'
+language: en
+title: Invite people to a Status Community
+author: cheny0, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Whether you are a community member or not, you can tell people about the community and invite them to join.
+
+    [Admonition: Info]
+    People you invite still need to meet the requirements to join [token-gated communities](./understand-token-requirements-in-communities.mdx) and receive the owner's approval in communities with [approval requirements](./about-community-request-approvals.mdx).
+
+
+## Invite options
+
+There are three approaches to inviting someone.
+
+    [Table]
+    | Approach | Description | Works with |
+    |---|---|---|
+    | Share to Status contacts | Use this option to share the community with people in your Status contact list. | Mobile and desktop |
+    | Show QR code | Use this option to show the community QR code to people to scan. | Mobile |
+    | Share a link | Use this option to share a link via your other social media, or copy it and share it manually. | Mobile and desktop |
+
+## Invite people to a community
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities".
+1. In the "Communities" list, long press the community you want to share. If you don't see the community, enter the name in the search bar.
+1. In the action sheet, choose an option and proceed as follows:
+
+    [Table]
+    | Option | Steps |
+    |---|---|
+    | Share to Status contacts | 1. Select "Invite people from contacts list".
+    1. Check the boxes next to the contacts you want to share with.
+    1. Tap "Invite users". |
+    | Show QR code | 1. Select "Show QR code".
+    1. Show or send the QR code to people you want to invite. |
+    | Share a link | 1. Select "Share community".
+    1. To share the link via another app on your phone, tap a profile picture or an app icon. To copy the link, tap "Copy". |
+    [Desktop Instructions]
+    1. From the navigation sidebar, click "Communities".
+    1. Choose the community you want to share. If you don't see the community, enter the name in the search bar.
+    1. From the navigation sidebar, right-click the community logo and then select "Share".
+    1. Choose the contacts or copy the link and proceed as follows:
+
+    [Table]
+    | Option | Steps |
+    |---|---|
+    | Share to Status contacts | 1. In the "Invite Contacts" pop-up window, type your contacts' names in the search bar or check the boxes next to the names.
+    1. Click "Next".
+    1. Optionally, type an invitation message.
+    1. Click "Send Invites". |
+    | Share a link | 1. In the "Invite Contacts" pop-up window, click "Copy" next to the link.
+    1. Switch to the app or platform where you want to share the link and paste it there. |
+
+    [Admonition: Tip]
+    After opening the link or scanning the QR code, people can install Status if they haven't already.

@@ -1,0 +1,48 @@
+---
+id: 1300
+revision: '0'
+language: en
+title: Customize your channel
+author: cheny0, Fabiomorais87, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only customize channels using Status desktop.
+
+
+As a [Status Community Owner](./how-to-run-a-status-community-your-quick-start-guide.mdx), you can [create channels](./create-a-channel.mdx) in your community, [organize channels into categories](./organize-channels-using-categories.mdx) and customize these channels and categories as you need.
+
+    [Admonition: Info]
+    Read [Delete a channel from your community](./delete-a-channel.mdx) if you want to delete channels.
+
+
+## Customize your channel
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. Right-click the channel, then click "Edit channel".
+1. You can change the "name", "colour", "emoji" and "description" for your community channel. The "name" and "description" are mandatory fields.
+1. Optionally, check the box to "Hide channel from members who don't have" "permissions to view the channel".
+1. Optionally, click "Add permission" to add channel permissions or click "Edit" to update an existing permission. Turn on or off the toggle to choose if "Users with view-only permissions can add reactions".
+1. Click "Save changes".
+
+    [Admonition: Info]
+    For details about setting up permissions, read [Set up channel permissions](./set-up-your-channel-permissions.mdx).
+
+
+## Reorder channels
+
+You can reorder channels in your community to make the important ones more accessible.
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. Click and hold the channel you want to reorder.
+1. Drag the channel to where you want it to be.
+
+    [Admonition: Info]
+    Read [Delete a channel from your community](./delete-a-channel.mdx) if you want to delete channels.

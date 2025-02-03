@@ -1,0 +1,35 @@
+---
+id: 284
+revision: '2'
+language: en
+title: Pin a message
+author: earakel, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+You can pin important information in chats so that it doesn't get lost in the message history. For example, you can pin your chat rules, event announcements or FAQ.
+
+## The basics
+
+- You can pin messages in DMs, group chats and community channels.
+- Group chat members can pin both their own and other members' messages.
+- Once you pin a message, it's highlighted and gets a label saying who pinned it.
+- In communities, whether you can pin someone's message depends on [your role](../communities/permissions-by-role-in-status-communities.mdx#permissions-for-key-features) and the [settings](../communities/create-a-status-community.mdx#configure-additional-settings) chosen by the community owner.
+
+## Pin a message
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to pin a message.
+1. In the chat or community channel, tap the message you want to pin.
+1. Tap "Pin to the chat". To unpin a message, tap it and select "Unpin".
+
+    To view all pinned messages in a group chat or DMs, open this chat and tap "Pinned messages". If the chat is full, tap the ribbon with the "Pin" symbol underneath the chat's name.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to pin a message.
+1. In the chat or community channel, hover over the message you want to pin.
+1. Click "Pin". To unpin a message, hover over it and click "Unpin".
+
+    To view all pinned messages in a group chat or DMs, open this chat and click "N pinned messages" underneath the chat's name. In communities, you can see "N", where N is the number of currently pinned messages.

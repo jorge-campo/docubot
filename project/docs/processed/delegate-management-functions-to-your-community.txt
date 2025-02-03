@@ -1,0 +1,91 @@
+---
+id: 686
+revision: '3'
+language: en
+title: Delegate management functions to your community
+author: jorge-campo, cheny0
+roles:
+  - Owner
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only delegate management functions using Status desktop.
+
+
+Community Owners have total control over their communities, including settings, membership approvals and permissions. In addition, Owners can delegate management functions to other community members through the TokenMaster and Admin roles.
+
+    [Admonition: Info]
+    TokenMasters and Admins play a similar role to Owners, but with some important differences. Check out [About the management roles in Status Communities](./about-the-management-roles-in-status-communities.mdx) for more information.
+
+
+To delegate management functions to others, Owners use tokens. Tokens are digital assets in a blockchain (such as the [Ethereum blockchain](../getting-started/about-the-ethereum-blockchain.mdx)), including assets (virtual coins), collectibles (NFTs) and ENS names.
+
+## What to expect
+
+- To delegate TokenMaster-level functions, assign the TokenMaster token to someone.
+- To delegate Admin-level functions, assign the "Become admin" community permission to a collectible or ENS name owner.
+- You can create a maximum of five different "Become admin" community-level permissions, but you can apply a single permission to multiple members.
+- To stop delegating management functions, [revoke the TokenMaster token](./revoke-the-tokenmaster-role-from-someone.mdx) or [delete the admin permission](./set-up-your-community-permissions.mdx#delete-community-permissions).
+
+## Choose your delegation token
+
+You use the TokenMaster token to delegate the TokenMaster role to others. When you [mint the Owner token](./mint-the-owner-and-tokenmaster-tokens.mdx), you also mint the TokenMaster token in the same process. You can then airdrop the TokenMaster token to people with whom you want to delegate admin responsibilities.
+
+    [Admonition: Info]
+    You can grant the TokenMaster role to people outside your community, but they must [join the community](./join-a-status-community.mdx) to exercise the role.
+
+
+You use a collectible or ENS name to delegate the Admin role to others. Assets don't have the non-transferable (soulbound) and self-destructing properties collectibles have, making it harder to remove management functions from other users.
+
+    [Admonition: Info]
+    Avoid using assets to delegate management functions.
+
+
+## Delegate the TokenMaster role using the TokenMaster token
+
+To delegate management permissions with the TokenMaster token, airdrop the token to the person you want to give permissions to. For more information, read [How to grant the TokenMaster role in your community](./how-to-grant-the-tokenmaster-role-in-your-community.mdx).
+
+You can revoke the TokenMaster role anytime by [remotely destructing](./revoke-the-tokenmaster-role-from-someone.mdx) the TokenMaster token.
+
+    [Admonition: Tip]
+    The TokenMaster token is a non-transferable (soulbound) collectible. The recipient can't transfer it to others.
+
+
+## Delegate the Admin role using a collectible or ENS name
+
+If you use a collectible, follow this process:
+
+<AwaitedList>
+1. [Mint](./mint-tokens-for-your-community.mdx) a non-transferable (soulbound) and remotely-destructible collectible.
+1. [Airdrop the collectible](./how-to-airdrop-tokens-in-status.mdx) to the person you wish to delegate management functions to.
+1. [Delegate the Admin role](#delegate-the-admin-role) using token-based community permissions.
+</AwaitedList>
+
+### Delegate the Admin role
+
+[Desktop Instructions]
+1. From the navigation sidebar, click your community.
+1. On top of the channel sidebar, click your community logo and then click "Permissions".
+1. Click "Add new permission".
+1. For the "Who holds" variable, choose your delegation option and use the table below for reference.
+1. For the "Is allowed to" variable, select "Become admin".
+1. For the "In" variable, make sure your community is selected.
+1. Click "Create permission". The new permission takes effect immediately.
+
+    [Table]
+    | Delegation option | Steps |
+    |---|---|
+    | Collectible | 1. Select "Collectibles".
+    1. Choose the collectible and amount you want to use to delegate management functions.
+    1. Click "Add". |
+    | ENS name | 1. Select "ENS".
+    1. Enter the ENS name or domain to which you want to delegate management functions.
+    1. Click "Add". |
+
+    [Admonition: Info]
+    When you select the "Become admin" role, the "Hide permission" option is
+    enabled automatically.

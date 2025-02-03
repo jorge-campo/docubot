@@ -1,0 +1,44 @@
+---
+id: 1249
+revision: '0'
+language: en
+title: Enable biometrics for your Status profile
+author: cheny0, Fabiomorais87, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can use biometrics to confirm transactions using Status desktop on macOS.
+
+
+Using biometrics provides a second method for securing your profile and Wallet accounts. You can use your biometrics (fingerprint, face or other) to confirm security-sensitive actions, such as sending a transaction or logging in to your Status profile.
+
+Enabling biometrics increases the possibility of restoring access to your funds and Status profile when accidents happen, such as forgetting your password or losing your Keycard.
+
+## What to expect
+
+- To use biometric authentication in Status, you must first set up biometrics on your device.
+- Unless you use Status desktop on macOS, Status requires your password to confirm transactions even if you have enabled biometrics.
+- After you enable biometrics, it becomes the default method for authentication. However, you can still choose to use your password or Keycard when logging in to your profile.
+
+## Enable biometrics for your Status profile
+
+[Mobile Instructions]
+1. From the tab bar, tap "Wallet".
+1. Tap your profile picture, then tap "Password".
+1. Switch on the toggle next to "Fingerprint" (Android) or "Face ID" (iPhone).
+1. Enter your password or use your Keycard to confirm and tap "Enable Fingerprint" or "Enable Face ID".
+1. Confirm with your biometric option (fingerprint, face or other) on your mobile device.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings" > "Password".
+1. Switch on the toggle next to "Enable biometrics".
+1. Click "Yes, enable biometrics".
+1. Enter your password or use your Keycard to confirm and click "Authenticate".
+1. Confirm with your biometric option (fingerprint, face or other) on your computer.
+
+    [Admonition: Tip]
+    To disable biometrics, switch off the toggle next to "Fingerprint", "Face ID" or "Enable biometrics", depending on the device you use.

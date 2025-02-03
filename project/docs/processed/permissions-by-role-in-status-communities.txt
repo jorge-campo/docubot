@@ -1,0 +1,47 @@
+---
+id: 432
+revision: '2'
+language: en
+title: Permissions by role in Status Communities
+author: jorge-campo, cheny0
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Status Communities have distinct roles, each with unique permissions and access levels.
+
+## Permissions for key features
+
+    [Table]
+    | Action | Owner | TokenMaster | Admin | Member |
+    |---|---|---|---|---|
+    | [Send messages](../messaging/send-and-read-messages.mdx), [react or reply to messages](../messaging/react-and-reply-to-messages.mdx), [edit or delete own messages](../messaging/edit-and-delete-messages.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Mention someone, use global mentions](../messaging/mention-people-in-status.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Send images](../messaging/share-images-in-status.mdx), [GIFs and stickers](../messaging/send-gifs-and-stickers.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Block someone](../profile/block-or-unblock-someone-in-status.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Access the community administration screens and functions](./how-to-run-a-status-community-your-quick-start-guide.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Edit community settings](./customize-your-community.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Create](./create-a-channel.mdx), [edit](./customize-your-channel.mdx) and [delete channels or categories](./delete-a-channel.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Reorder channels and categories](./customize-your-channel.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Create, edit and delete "Become member" permissions](set-up-a-token-gated-community.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Create, edit and delete "Become admin" permissions](./delegate-management-functions-to-your-community.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Create, edit and delete other permissions](./set-up-your-community-permissions.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Receive"Request to join" notifications and ability to accept or reject requests](./set-up-your-community-join-requests.mdx) (1) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Kick and ban members](./kick-or-ban-someone-from-your-community.mdx) (1) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Receive any message in the community](../messaging/edit-and-delete-messages.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | Pin messages when the ["Any member can pin a message" option](./customize-your-community.mdx) is checked | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | Pin messages when the ["Any member can pin a message" option](./customize-your-community.mdx) is unchecked | <CheckCircleIcon /> | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Mint tokens](./mint-tokens-for-your-community.mdx) | <CheckCircleIcon /> | <CheckCircleIcon />(2) |
+    | [Mint the TokenMaster token](./mint-the-owner-and-tokenmaster-tokens.mdx) | <CheckCircleIcon /> |
+    | [Airdrop tokens](./how-to-airdrop-tokens-in-status.mdx) | <CheckCircleIcon /> | <CheckCircleIcon /> |
+    | [Configure the Community History Service](./about-the-community-history-service.mdx) | <CheckCircleIcon /> |
+
+(1) When the Owner, TokenMaster or Admin [approves a member request](./set-up-your-community-join-requests.mdx) or removes a member by [kicking or banning them](./kick-or-ban-someone-from-your-community.mdx), the system sends the command to the control node. If the control node is offline, it executes the command as soon as it returns online.
+
+(2) Except the TokenMaster token.
+
+    [Admonition: Info]
+    To provide the best experience for their members, community Owners should keep Status desktop running with their owner profile online daily or at least once every six days.

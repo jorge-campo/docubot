@@ -1,0 +1,55 @@
+---
+id: 748
+revision: '0'
+language: en
+title: Factory reset your Keycard
+author: cheny0, Fabiomorais87, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can only factory reset your Keycard on the Status desktop app.
+
+
+A factory reset deletes all the exiting data on your Keycard. Consider performing a factory reset when you use your Keycard to hold other accounts, if it is locked, or when you want to use it with a sixth device.
+
+    [Admonition: Caution]
+    Make sure you know the recovery phrase for the accounts you store on your Keycard before you factory reset it. If you don't know the recovery phrase, see [If you lose your Status password or recovery phrase](./if-you-lose-your-status-password-or-recovery-phrase.mdx).
+
+
+## When to factory reset your Keycard
+
+- **You want to use the Keycard for other accounts** - One Keycard can only store accounts using the same recovery phrase. If you want to use the Keycard with accounts associated with a different recovery phrase, you need to perform a factory reset.
+- **Your Keycard is locked** - Your Keycard becomes locked after entering the wrong PIN three times. You can [unlock it with your recovery phrase](./unlock-your-keycard.mdx) or factory reset it.
+- **You want to use the Keycard on a sixth device** - You can pair your Keycard with up to five devices. If you want to use the Keycard on a sixth device, you need to factory reset the Keycard to clear the information from previous devices.
+
+## What to expect
+
+- You can factory reset a Keycard using any computer running Status.
+- After a factory reset, your Keycard is empty like a new one.
+- A factory reset is irreversible. Once completed, all information on the Keycard is permanently removed.
+- The factory reset removes all accounts on your Keycard. To continue using the accounts, check out [Stop using your Keycard](./stop-using-keycard-for-your-wallet-account-or-profile.mdx) before the factory reset.
+
+## Factory reset your Keycard
+
+Before you start, make sure you have the recovery phrase of the accounts on your Keycard.
+
+### If the Keycard isn't locked
+
+[Desktop Instructions]
+1. Plug in your Keycard using a card reader.
+1. Enter your Keycard PIN or click "I don't know the PIN".
+1. Confirm the accounts on your Keycard are the ones to delete, and click "Next".
+1. Check the box and click "Factory reset this Keycard" to reset your Keycard.
+1. Click "Done" to finish.
+
+### If the Keycard is locked
+
+[Desktop Instructions]
+1. Plug in your Keycard using a card reader.
+1. Check the box "I understand the keypair on this Keycard will be deleted" and click "Factory reset this Keycard".
+1. Click "Done".

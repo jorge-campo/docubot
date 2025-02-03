@@ -1,0 +1,40 @@
+---
+id: 397
+revision: '1'
+language: en
+title: Delete your Status Community
+author: cheny0, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    You can only delete your community using Status desktop.
+
+
+Status uses a [peer-to-peer network](../messaging/about-status-messages.mdx#understand-peer-to-peer-messaging) that temporarily stores your community data. Because of this decentralized architecture, there is no one-click way to delete a community and all associated data.
+
+## What to expect
+
+- For a community to disappear, you must remove everyone from the community, including yourself, and make sure no activity happens for at least 30 days.
+- Community transactions on the blockchain continues to exist. For example, if you [minted tokens for your community](./mint-tokens-for-your-community.mdx), the transaction is on-chain and persists in the blockchain.
+
+    [Admonition: Info]
+    Your messages are not in the blockchain and are not transported through the Ethereum network. [Messages](../messaging/about-status-messages.mdx) are temporarily stored in the peer-to-peer network.
+
+
+## Delete your Status Community
+
+You must complete the following tasks:
+
+<AwaitedList>
+1. Set up [manual approval](./set-up-your-community-join-requests.mdx) for the community.
+1. [Kick out all members from the community](./kick-or-ban-someone-from-your-community.mdx).
+1. [Leave your community](./leave-a-status-community.mdx).
+1. Delete or destroy the community private key if it's stored anywhere.
+1. Wait for at least 30 days.
+</AwaitedList>
+
+After 30 days, the Waku peer-to-peer network stops caching your community data, and the community is deleted irrecoverably.

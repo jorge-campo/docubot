@@ -1,0 +1,65 @@
+---
+id: 500
+revision: '1'
+language: en
+title: Customize group chat notifications
+author: Fabiomorais87, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+You can choose which message and mention notifications you want to receive for any group chat. This allows to display only the notifications that are relevant to you.
+
+## Mute notifications in specific group chats
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Long press the group chat you want to mute.
+1. Tap "Mute".
+1. Select the length of time you'd like to mute your notifications.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Messages".
+1. Under the messages list, right-click the group you want to mute.
+1. Select "Mute chat".
+
+    [Admonition: Tip]
+    When you mute notifications for a group chat, it appears greyed with a <MutedIcon />Muted icon.
+
+
+## Mute group chat notifications except personal mentions
+
+To avoid missing important messages, you can mute some notifications. Here's how to mute all group chat notifications except personal mentions.
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Long press the group chat you want to mute.
+1. Tap "Notifications".
+1. Select "Global mentions" > "Notifications off".
+1. Select "All other messages" > "Notifications off".
+1. Verify "Personal mentions" is set to "On". If it is not, select "Personal mentions" > "Notifications on".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings".
+1. From the "Settings sidebar", click "Notifications and Sounds".
+1. Scroll down to the "Exceptions" area and click "Add" next to the group chat you want to mute.
+1. Select "Global mentions" > "Turn off".
+1. Select "All other messages" > "Turn off".
+1. In the same pop-up menu, make sure "Personal mentions" is set to "Send alerts". If it's not, then select "Personal mentions" > "Send Alerts".
+
+## Mute all group chats notifications
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap your profile picture.
+1. Scroll down the list of settings and tap "Notifications".
+1. Select "Group chats" > "Your default notification settings".
+1. Turn off "Personal mentions", "Global mentions" and "All other messages".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Settings".
+1. From the"Settings sidebar", click "Notifications and Sounds".
+1. Under the"Messages" area, click on the drop-down menu next to"Group chats".
+1. Select "Turn off".
+
+    [Admonition: Info]
+    For desktop, you mute a specific group chat by creating an exception.

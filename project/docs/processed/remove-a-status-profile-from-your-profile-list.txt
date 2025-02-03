@@ -1,0 +1,38 @@
+---
+id: 344
+revision: '2'
+language: en
+title: Remove a Status profile from your profile list
+author: cheny0
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currenly, you can only remove a profile from the Status mobile app.
+
+
+If you don't want a profile to show up on your device, you can remove it from your profile list.
+
+    [Admonition: Info]
+    A profile removed from your device is not deleted. Check out [Delete your Status profile](./delete-your-status-profile.mdx).
+
+
+## What to expect
+
+- When you remove a profile from one device, the associated data is deleted from that device. To delete the data from all devices, repeat the procedure on all devices where you use the profile.
+- If you don't log in to your Status profile for 30 days or more (on any device), when you want to use the profile again, you first have to log in from the device you created the profile to recover it. Because the [Waku peer-to-peer network](../messaging/about-status-messages.mdx#understand-peer-to-peer-messaging) stops caching your profile after 30 days of inactivity, the data only exists on this device.
+- Your funds in the Wallet accounts associated with the profile are safe as long as you know your recovery phrase.
+
+## Remove a Status profile
+
+[Mobile Instructions]
+1. From the tab bar, tap "Communities", then tap your profile photo.
+1. Scroll down and tap "Log out".
+1. Tap "Log out" again to confirm.
+1. From the top navigation, tap "Profiles".
+1. Tap the "More options" next to the profile to remove.
+1. Tap "Remove profile from this device".
+1. Tap "Remove" to confirm.

@@ -1,0 +1,44 @@
+---
+id: 1184
+revision: '1'
+language: en
+title: 'Collectibles: your quick start guide'
+author: Fabiomorais87, cheny0, jorge-campo
+---
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157619/Help/Documentation%20Screens/Wallet/1184/1184_Header_light.png)
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Collectibles (also known as non-fungible tokens or NFTs) are unique digital assets in [the blockchain](../getting-started/about-the-ethereum-blockchain.mdx) that you can own, use or trade. These tokens often represent ownership of artistic or virtual items.
+
+in Status, collectibles can also provide access to certain token-gated communities or exclusive content within designated channels. For example, you may need a collectible to [join a community](../communities/join-a-status-community.mdx) that requires it for access.
+
+    [Admonition: Tip]
+    To join a token-gated community or channel requiring a collectible, ensure you [share the Status Wallet account](../communities/choose-the-wallet-account-address-you-share-with-a-community.mdx) holding the collectible with the community.
+
+
+## View your collectibles in Status Wallet
+
+In the Status app, you can choose any Wallet account and select the "Collectibles" tab to view your digital assets.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157539/Help/Documentation%20Screens/Wallet/1184/1184_1_Screen_Light.png)
+
+
+
+## View your collectibles details
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157538/Help/Documentation%20Screens/Wallet/1184/1184_2_Screen_Light.png)
+
+
+
+## Work with collectibles
+
+You can [mint collectibles for your community](../communities/mint-tokens-for-your-community.mdx) as a community Owner or TokenMaster.
+
+When you mint a collectible, you create a unique digital token that serves your community's needs, such as [rewarding members](../communities/how-to-airdrop-tokens-in-status.mdx), [token-gate your community](../communities/set-up-a-token-gated-community.mdx) or granting [exclusive access](../communities/grant-exclusive-access-with-tokens.mdx) to channels.
+
+    [Admonition: Info]
+    For more information on what you can do with collectibles in Status, check out [Understand your token actions in Status](../communities/understand-your-token-actions-in-status.mdx).

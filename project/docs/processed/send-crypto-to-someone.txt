@@ -1,0 +1,61 @@
+---
+id: 75
+revision: '2'
+language: en
+title: Send crypto to someone
+author: earakel, jorge-campo, Fabiomorais87
+---
+
+You can send crypto to other people using your [Status Wallet](./status-wallet-your-quick-start-guide.mdx). The person you're sending crypto to doesn't need to be a Status Wallet user.
+
+If you want to transfer funds between several blockchain networks, Status Wallet automatically determines the most efficient route and calculates the [network fees](./understand-network-fees.mdx).
+
+    [Admonition: Info]
+    Status Wallet doesn't charge any extra transaction fees. The network fees you're paying to send transactions are charged by the Ethereum blockchain. For more details, check out [Understand network fees](./understand-network-fees.mdx).
+
+
+## What to expect
+
+- You can send crypto to any Ethereum address. This means the person receiving your crypto doesn't need to be on your contact list. They can also use any other wallet app they prefer.
+- Status Wallet doesn't support non-Ethereum-based assets. If you send crypto to a non-Ethereum address (for example, a Bitcoin address), you may lose your funds. To verify the address, you can look it up on a [block explorer](./understand-block-explorers.mdx).
+- To send crypto to someone, you need to pay network fees. No matter which asset or token you're sending, you can only pay network fees in ETH. For more details, check out [Understand network fees](./understand-network-fees.mdx).
+
+## Advanced and Custom settings
+
+There are two transaction modes available in Status Wallet: Simple and Advanced. If you're sending crypto within the same network (for example, Ethereum to Ethereum or Optimism to Optimism), use the Simple mode.
+
+If you're transferring crypto between different networks, Status Wallet automatically determines the most efficient way to bridge and transfer your funds. If you need more customization or want more control, you can use the Advanced mode.
+
+The Advanced mode lets you choose which networks the recipient receives crypto on and disable unwanted chains. In Custom mode, you can also set custom amounts per each network. For more details on how to use the Custom and Advanced modes, see [Use Advanced transaction settings](./use-advanced-transaction-settings.mdx).
+
+    [Admonition: Info]
+    Currently, the Advanced mode is only available as a beta feature.
+
+
+## Send crypto
+
+[Mobile Instructions]
+1. From the tab bar, tap  "Wallet".
+1. Select the account you want to send crypto from and tap "Send".
+1. In the "Send To" page, enter the receiving address and tap "Continue". You can:
+       - "paste" the receiving address from the clipboard or "scan" its QR code.
+       - Use a Status contact's name or an ENS name.
+       - Choose from a "Recent" address, one of your "Saved" addresses or one of your "Accounts".
+1. From the token list, select which asset or collectible you want to send.
+1. Enter the amount to send. The Status app automatically calculates the most efficient way to send your funds. Tap "Review send".
+1. Double-check the transaction details and then "Slide to send".
+1. Authenticate using your password, biometrics or Keycard.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Wallet".
+1. Select the account you want to send crypto from and click "Send".
+1. From the token list, select which asset or collectible you want to send.
+1. Enter the amount to send.
+1. In the "To" enter the receiving address. You can:
+       - "Paste" the receiving address from the clipboard.
+       - Use a Status contact's name or an ENS name.
+       - Choose from a "Recent" address, one of your "Saved" addresses or one of your "Accounts".
+1. Double-check everything, including the network fees, and click "Send".
+1. Authenticate with biometrics (fingerprint, face or other method), password or your Keycard.
+
+    [Admonition: Caution]
+    Double-check the address you're sending crypto to and make sure it's an Ethereum address. Once you send a blockchain transaction, there's no way to cancel it.

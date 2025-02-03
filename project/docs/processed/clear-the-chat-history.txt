@@ -1,0 +1,36 @@
+---
+id: 229
+revision: '3'
+language: en
+title: Clear the chat history
+author: earakel, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+If you clear a chat history, you're clearing all messages in the direct message (DM) chat, group chat or community channel just for yourself. Everyone else can still see the full history.
+
+{/*
+For a group chat, only the group chat owner can clear its history for all members. Once you clear the chat history for everyone, there's no way to recover it. If you're not the group chat owner, you clear the chat history just for yourself. Everyone else can still see the full group chat history.
+*/}
+
+    [Admonition: Info]
+    Currently, you can only clear the chat history for a community channel using Status Desktop.
+
+
+## Clear the chat history
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap the DM or the group chat you want to clear.
+1. From the top navigation, tap "More options".
+1. Select "Clear history".
+1. Tap "Clear history" again to confirm.
+[Desktop Instructions]
+1. From the navigation bar, click "Chat".
+1. Click the DM or the group chat you want to clear.
+1. At the top of the content area, lick "More options".
+1. Select "Clear history".
+1. Click "Clear" to confirm.

@@ -1,0 +1,21 @@
+---
+id: 1367
+revision: '0'
+language: en
+title: 'Check your Status app version'
+author: jorge-campo, Fabiomorais87
+roles:
+---
+
+You can check the version of the Status app you're running to ensure it's up to date or for troubleshooting purposes.
+
+## Check your Status app version
+
+[Mobile Instructions]
+1. Open the Status app on your mobile device.
+1. Tap your profile picture, and then scroll down and tap "About".
+1. The version of the Status app you're running is displayed next to "App version".
+[Desktop Instructions]
+1. Open the Status app on your desktop.
+1. From the navigation sidebar, click "Settings" > "About".
+1. The version of the Status app you're running is displayed above "Current version".

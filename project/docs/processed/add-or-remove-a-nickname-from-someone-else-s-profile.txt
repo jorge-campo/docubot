@@ -1,0 +1,57 @@
+---
+id: 87
+revision: '0'
+language: en
+title: Add or remove a nickname from someone else's profile
+author: jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+Nicknames are familiar or custom names you can assign to people you interact with in Status. Nicknames offer a practical solution for remembering names that may be difficult to recall or distinguish.
+
+    [Admonition: Info]
+    Nicknames you add to others are personal and only visible to you.
+
+
+When you assign a nickname to someone, the Status app prioritizes displaying the nickname over the original name chosen by the contact. The nickname and the contact's original name are always visible.
+
+    [Admonition: Tip]
+    You can give nicknames to anyone in Status, not only your contacts. You can't add a nickname to yourself.
+
+
+## Add a nickname to someone's profile
+
+[Mobile Instructions]
+1. Open the chat, group chat or channel with the person you want to add a nickname to.
+1. Tap the person's name you want to add a nickname.
+1. From the top navigation, tap "More options".
+1. Tap "View profile".
+1. From the top navigation, tap "More options".
+1. Select "Add nickname".
+1. Enter your desired nickname and tap "Add nickname".
+[Desktop Instructions]
+1. Open the chat, group chat or channel with the person you want to add a nickname to.
+1. Click the person's name and select "More options".
+1. Click "View profile".
+1. Click "More options".
+1. Click "Add nickname".
+1. In the "Add nickname" pop-up window, enter your desired nickname and click "Add nickname".
+
+## Remove a nickname from someone's profile
+
+[Mobile Instructions]
+1. Open the chat, group chat, or channel with the person you want to remove the nickname from.
+1. Tap the person's name you want to remove a nickname.
+1. From the top navigation, tap "More options".
+1. Tap "View profile".
+1. From the top navigation, tap "More options".
+1. Tap "Remove nickname".
+[Desktop Instructions]
+1. Open the chat, group chat, or channel with the person you want to remove the nickname from.
+1. Click the person's name and select "More options".
+1. Click "View profile".
+1. Click "More options".
+1. Click "Remove nickname".

@@ -1,0 +1,34 @@
+---
+id: 531
+revision: '1'
+language: en
+title: Close a chat with someone
+author: cheny0, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+You may think about closing your chat with someone if you don't talk to this person often, or you want to tidy up your chat list.
+
+### What to expect
+
+- You can close a direct message chat (or DM, for short) with someone in your chat list, but you can't close a group chat.
+- Closing a chat doesn't delete the messages or your contact.
+- If this person sends you a new message, the chat reappears on your chat list.
+
+### Close a chat with someone
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Find the chat you want to close and long-press it.
+1. Tap "Close chat".
+[Desktop Instructions]
+1. From the navigation sidebar, click "Messages".
+1. Open the chat you want to close.
+1. Click "More options" and select "Close chat".
+1. Click "Close chat" again to confirm.
+
+    [Admonition: Tip]
+    To permanently delete all messages for yourself or delete your messages for the recipient, tap "Clear history" instead.

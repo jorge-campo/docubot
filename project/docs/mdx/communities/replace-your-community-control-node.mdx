@@ -1,0 +1,168 @@
+---
+id: 406
+revision: '3'
+language: en
+title: Replace your community control node
+author: jorge-campo, cheny0
+roles:
+- Owners
+---
+
+<Admonition type="beta" status="Experimental">
+  Replacing your community control node is an experimental feature.
+</Admonition>
+
+{/*
+  See [Support archive protocol when transferring control node to new device/account](https://github.com/status-im/status-desktop/issues/15235).
+*/}
+
+The [community control node](./about-the-control-node-in-status-communities.mdx) maintains your community settings, configuration and functionality. The computer where you [create your Status Community](./create-a-status-community.mdx) or [transfer your community ownership](./transfer-your-community-ownership.mdx) becomes a control node.
+
+As a community owner, you can replace the control node if you need to move your community to another computer. You can only replace the control node if you meet all these conditions:
+
+- Have access to the computer where your community runs.
+- Replace the control node within 30 days of the last time your community connected to the internet.
+- Have the [Owner token](./understand-the-owner-and-tokenmaster-tokens.mdx) in your Status Wallet.
+
+<Admonition type="info">
+  If the control node is unavailable or more than 30 days have passed since you last connected the community to the internet, read [Recover your Status Community](./recover-your-status-community.mdx).
+</Admonition>
+
+## What to expect
+
+- Before replacing the control node, [Mint the Owner token](./mint-the-owner-and-tokenmaster-tokens.mdx).
+- After replacing the control node, [remove the original Status desktop installation](#remove-status-desktop-from-the-original-control-node) to avoid issues with your community.
+- If you use the [Community History Service (CHS)](./about-the-community-history-service.mdx), you can restore your community message history after replacing the control node.
+- Keep only one control node running. Trying to run your community with more than one control node can cause unforeseen issues.
+
+<Admonition type="caution">
+  Every Status desktop installation includes the Status folder. Don't delete or change this folder. Doing so may cause unexpected issues with your community and Status profile.
+</Admonition>
+
+## Replace your community control node
+
+You start the process in the current control node and finish it in the new one.
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Desktop">
+    ### Step 1: Initiate control node replacement
+
+    1. In the new computer, install Status desktop and sign in with your Owner's profile by syncing, entering your recovery phrase or using your Keycard.
+    1. The current control node notifies you about a new device added to your profile. In the control node, go to <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> > <ContextTag icon={<RotateDesktopIcon />}>Syncing</ContextTag> and click <ContextTag>Setup syncing</ContextTag> next to your new computer. Wait for the synchronization to finish.
+    1. Still in the current control node, in your community settings, click <ContextTag icon={<ShowDesktopIcon />}>Overview</ContextTag>. Under the content area, click <ContextTag>How to move control node</ContextTag>.
+    1. Select the new computer as the control node and click <ContextTag>Move control node</ContextTag>.
+
+    ### Step 2: Finalise control node replacement
+
+    1. In the new computer, click your community in the navigation sidebar.
+    1. At the top of the channel sidebar, click your community logo and then click <ContextTag icon={<ShowDesktopIcon />}>Overview</ContextTag>.
+    1. Under the content area, click <ContextTag>Make this device the control node</ContextTag>.
+    1. Check the required boxes and click <ContextTag>Make this device the control node for \[your-community]</ContextTag>
+  </TabsContent>
+</Tabs>
+
+## Restore your community message history
+
+After you replace your control node on another computer, the new control node shows only the last 30 days of messages. To restore the message history and make it available to your community members, move the Status folder from the original control node to the new control node.
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Desktop">
+    ### Step 1: Back up the Status folder in the new control node
+
+    Creating a backup ensures you can restore your data if something goes wrong.
+
+    1. In the new control node, click <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> > <ContextTag icon={<LogOutDesktopIcon />}>Sign out and quit</ContextTag>.
+
+    1. Click <ContextTag>Sign out and quit</ContextTag> again to confirm.
+
+    1. Go to the directory containing the Status folder. Use this table for reference:
+
+           <Table>
+             <TableHead>
+               <TableHeader>Platform</TableHeader>
+               <TableHeader>Folder path</TableHeader>
+             </TableHead>
+
+             <TableContent>
+               <TableRow>
+                 <TableCell>Windows</TableCell>
+                 <TableCell>C:\Users\\\[your-username]\AppData\Local\Status</TableCell>
+               </TableRow>
+
+               <TableRow>
+                 <TableCell>macOS</TableCell>
+                 <TableCell>\~/Library/Application Support/Status</TableCell>
+               </TableRow>
+
+               <TableRow>
+                 <TableCell>Linux</TableCell>
+                 <TableCell>\~/.config/Status</TableCell>
+               </TableRow>
+             </TableContent>
+           </Table>
+
+    1. Copy the entire Status folder to a safe location on your system.
+
+    ### Step 2: Replace the Status folder in the new control node
+
+    1. In the original control node, click <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> > <ContextTag icon={<LogOutDesktopIcon />}>Sign out and quit</ContextTag>.
+    1. Click <ContextTag>Sign out and quit</ContextTag> again to confirm.
+    1. Copy the Status folder from the original control node and replace the existing Status folder in the new control node.
+    1. Open Status desktop in the new control node and wait for the message history to restore.
+  </TabsContent>
+</Tabs>
+
+## Remove Status desktop from the original control node
+
+After you replace the control node, remove the original Status desktop installation.
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Desktop">
+    1. In the new computer, click <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> in the navigation sidebar.
+    1. Click <ContextTag icon={<RotateDesktopIcon />}>Syncing</ContextTag>.
+    1. Click <ContextTag>Unpair</ContextTag> next to the original control node and click <ContextTag>Unpair</ContextTag> again to confirm your action.
+    1. Uninstall Status desktop from the original control node.
+  </TabsContent>
+</Tabs>

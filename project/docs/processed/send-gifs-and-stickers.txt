@@ -1,0 +1,52 @@
+---
+id: 289
+revision: '2'
+language: en
+title: Send GIFs and stickers
+author: jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+Animated GIFs and stickers are a popular way of expressing emotions, reactions and humour in messaging apps. GIFs are short, looping animated videos of a few seconds in length, while stickers are static or animated images.
+
+The Status app uses the [Tenor GIF](https://tenor.com/) search engine and database for GIFs. You can also share GIFs from other sources by sending a message with your GIF's URL.
+
+You can add more stickers to default sticker sets in Status or share a sticker set with someone. For more details, check out [Add, remove or share sticker sets](./add-remove-or-share-sticker-sets.mdx).
+
+    [Admonition: Info]
+    To show the GIF preview and not its URL, [enable rich link previews](../profile/configure-rich-link-previews-in-messages.mdx) in messages.
+
+
+## Send GIFs
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to share a GIF.
+1. Tap the chat or community channel where you want to share a GIF.
+1. In the chat or community channel, tap  "React" next to the message field.
+1. Tap  "GIF". The first time you send a GIF, you need to "Enable" the service.
+1. Search or choose the GIF you want to share. The GIF is sent immediately.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to share a GIF.
+1. Click the chat or community channel where you want to share the GIF.
+1. In the chat or community channel, click "GIF" next to the message field. The first time you send a GIF, you need to "Enable" the service.
+1. Search or choose the GIF you want to share. The GIF is sent immediately.
+1. Optionally, hover over the GIF in the preview window and click the "Star" symbol to save it as a favourite.
+
+    [Admonition: Tip]
+    If you want to add a message to your GIF, write the text before selecting the GIF.
+
+
+## Send stickers
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages" or "Communities" where you want to share a sticker.
+1. In the chat or community channel, tap "React" next to the message field.
+1. Tap "Sticker".
+1. From your list of stickers, tap the sticker you want to send. The sticker is sent immediately.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat" or a community where you want to share a sticker.
+1. In the chat or community channel, click "Sticker" next to the message field. If you don't have stickers, you need to "Get stickers".
+1. Choose the sticker you want to share. The sticker is sent immediately.

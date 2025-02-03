@@ -1,0 +1,67 @@
+---
+id: 1382
+revision: '1'
+language: en
+title: Back up to an additional Keycard
+author: cheny0, jorge-campo
+---
+
+<Admonition type="beta" status="Status app is currently in beta stage">
+  The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+</Admonition>
+
+<Admonition type="info">
+  Currently, you can only back up your Keycard with the Status desktop app.
+</Admonition>
+
+When you back up your Keycard to another Keycard, you create a copy of the original Keycard. You can use the backup Keycard if you lose the original one, or to keep the two in different locations for convenience.
+
+<Admonition type="tip">
+  If you lose your Keycard and don't have a backup Keycard, you can still recover your Status profile and Wallet funds as long as you have the recovery phrase. For more details, check out [If you lose your Keycard](./if-you-lose-your-keycard.mdx).
+</Admonition>
+
+## What to expect
+
+- You can create unlimited backups of your Keycard.
+- The original and backup Keycards have the same functionalities. You can use them interchangeably.
+- The original Keycard and the backup Keycards are shwon under the same name in <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> > <ContextTag icon={<KeycardDesktopIcon />}>Keycard</ContextTag>. You can click the name to view the details of each Keycard.
+- You can [rename the Keycards](./rename-your-keycard.mdx) to distinguish them from each other.
+
+## Back up to an additional Keycard
+
+<Tabs defaultValue="Desktop">
+  <TabsList size={32}>
+    <TabsTrigger value="Mobile" disabled>
+      Mobile
+    </TabsTrigger>
+
+    <TabsTrigger value="Desktop">
+      Desktop
+    </TabsTrigger>
+
+    <TabsTrigger value="Web" disabled>
+      Web
+    </TabsTrigger>
+  </TabsList>
+
+  ### Step 1: Confirm the Keycard to back up
+
+  <TabsContent value="Desktop">
+    1. Plug in your Keycard using a card reader, and allow the connection if you see a security alert from your computer.
+    1. In Status, from the navigation sidebar, click <ContextTag icon={<SettingsDesktopIcon />}>Settings</ContextTag> > <ContextTag icon={<KeycardDesktopIcon />}>Keycard</ContextTag>.
+    1. Select the Keycard to back up.
+    1. Click <ContextTag>Create a backup copy of this Keycard</ContextTag>.
+    1. Enter your Keycard PIN and click <ContextTag>Next</ContextTag>.
+    1. Review the Status profile or Wallet accounts on your Keycard and click <ContextTag>Next</ContextTag>.
+  </TabsContent>
+
+  ### Step 2: Create a backup
+
+  <TabsContent value="Desktop">
+    1. Remove the original Keycard from the card reader and unplug the card reader from your computer. Then click <ContextTag>Next</ContextTag>.
+    1. Plug the card reader again into your computer and insert the backup Keycard into the card reader.
+    1. Confirm the Status profile or Wallet accounts on your Keycard and click <ContextTag>Next</ContextTag>.
+    1. Enter the recovery phrase for the profile or Wallet accounts.
+    1. Click <ContextTag>Done</ContextTag>.
+  </TabsContent>
+</Tabs>

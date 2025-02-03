@@ -1,0 +1,31 @@
+---
+id: 1134
+revision: '0'
+language: en
+title: View the profile or Wallet accounts on your Keycard
+author: cheny0, Fabiomorais87, jorge-campo
+roles:
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can only view the Keycard that you use with the Status profile using the Status mobile app. You can view all your Keycards, including the Keycards you use with [imported wallet accounts](../wallet/import-an-account-into-your-status-wallet.mdx) on the Status desktop app.
+
+
+If you have multiple Keycard hardware wallets, you might forget which Status profile or Wallet accounts are on each Keycard. You can view what's on your Keycard to help you remember.
+
+## View the profile or Wallet accounts
+
+[Mobile Instructions]
+1. Open the Status app and log in to your profile.
+1. Tap your profile picture.
+1. Tap "Keycard".
+[Desktop Instructions]
+1. Plug in your Keycard using a card reader, and allow the connection request if you see a security alert from your computer.
+1. From the navigation sidebar, click "Settings" > "Keycard".
+1. Click "Check what's on a Keycard".
+1. Enter your Keycard PIN.
+1. Review the accounts on your Keycard and click "Done".

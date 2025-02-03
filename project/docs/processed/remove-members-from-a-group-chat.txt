@@ -1,0 +1,37 @@
+---
+id: 244
+revision: '2'
+language: en
+title: Remove members from a group chat
+author: earakel, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
+
+
+The [group chat](./understand-group-chats.mdx) owner can remove members from a group chat. As a group chat owner, you're free to decide what's acceptable in your chat and remove members you don't want to see in the conversation. Regular group chat members can't remove other members.
+
+If you remove someone by mistake or change your mind about them later, you can always [re-add them to the chat](./add-members-to-a-group-chat.mdx).
+
+    [Admonition: Info]
+    If you remove someone from a group chat, they don't receive a notification. When they open the group chat, they can see a message indicating that they are no longer a member of the group.
+
+
+## Remove members
+
+[Mobile Instructions]
+1. From the tab bar, tap "Messages".
+1. Tap the group chat you want to remove members from.
+1. Tap the member list underneath the chat's name.
+1. Tap "More options" next to the member you want to remove.
+1. Select "Remove from the group".
+1. Select "Remove" to confirm your decision.
+
+    If you want to remove multiple members in a batch, go to "Messages" > your group chat > "Manage members" and uncheck the boxes next to the members you want to remove. Tap "Confirm changes" to confirm your decision.
+[Desktop Instructions]
+1. From the navigation sidebar, click "Chat".
+1. Click the group chat you want to remove members from.
+1. At the top of the content area, click "More options".
+1. Click "Add / remove from group".
+1. Click the "Cross" next to the Status handle of the contact you want to remove. Once you're done, click "Confirm".

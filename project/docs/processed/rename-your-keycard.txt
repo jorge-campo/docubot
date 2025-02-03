@@ -1,0 +1,30 @@
+---
+id: 823
+revision: '0'
+language: en
+title: Rename your Keycard
+author: cheny0, Fabiomorais87, jorge-campo
+---
+
+    [Admonition: Beta]
+    The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
+
+
+    [Admonition: Info]
+    Currently, you can only rename your Keycard on the Status desktop app.
+
+
+You can name your Keycard to track which account it holds, and you have the option to rename it if needed.
+
+If someone finds your lost Keycard, they can't see its name or the account name without knowing your Keycard [PIN or PUK](../profile/about-your-keycard-pin-and-puk.mdx).
+
+## Rename your Keycard
+
+[Desktop Instructions]
+1. Plug in your Keycard using a card reader, and allow the connection request if you see a security alert from your computer.
+1. Open the Status app and, from the tab bar, click "Settings" > "Keycard". Select the Keycard you want to rename.
+1. Under "Configure your Keycard", click "Rename Keycard".
+1. Enter your Keycard PIN.
+1. Confirm the wallet accounts on the Keycard and click "Next".
+1. Enter the new name and click "Rename this Keycard".
+1. Click "Done".
