@@ -18,7 +18,7 @@ def load_text_files(path):
             data.append((filename, text))
     return data
 
-def chunk_text(text, chunk_size=300):
+def chunk_text(text, chunk_size=500):
     """
     Split text into chunks of ~300 words each.
     You can adjust chunk_size based on experimentation.

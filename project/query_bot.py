@@ -39,8 +39,8 @@ def call_ollama(prompt, model=OLLAMA_MODEL):
     payload = {
         "model": model,
         "prompt": prompt,
-        "temperature": 0.5,
-        "max_tokens": 256
+        "temperature": 0.3,
+        "max_tokens": 64
     }
     response = requests.post(url, json=payload, stream=True)
     if response.status_code != 200:
@@ -73,6 +73,17 @@ def main():
         print(f"File: {fn} | Distance: {dist}")
         print("Sample chunk text:\n", chunk[:300], "...")
         print("-" * 60)
+
+
+    # Before building context_text, filter chunks by similarity threshold
+    # MIN_SIMILARITY = 0.7  # Adjust based on your embedding space
+    # filtered_chunks = [c for c in top_chunks if c[0] <= MIN_SIMILARITY]
+
+    # If no chunks meet threshold, force "I don't know" response
+    # if not filtered_chunks:
+    #    return "I don't know based on the available documentation."
+
+    #context_text = "\n".join([chunk for _, _, chunk in filtered_chunks])
 
     # Build the context text from your retrieved chunks
     context_text = ""
