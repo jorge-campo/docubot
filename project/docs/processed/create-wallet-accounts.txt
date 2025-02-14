@@ -1,11 +1,3 @@
----
-id: 585
-revision: '2'
-language: en
-title: Create Wallet accounts
-author: earakel, jorge-campo
----
-
 Once you [create your Status profile](../getting-started/run-the-status-app-for-the-first-time.mdx#create-a-new-status-profile), you automatically get a Status Wallet account. You can create extra accounts if you want to. For example, you can use them to save towards specific goals or to keep track of your short-term and long-term token investments.
 
     [Admonition: Info]

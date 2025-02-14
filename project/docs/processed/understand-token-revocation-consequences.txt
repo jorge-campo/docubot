@@ -1,12 +1,3 @@
----
-id: 783
-revision: '1'
-language: en
-title: Understand token revocation consequences
-author: jorge-campo, cheny0
-roles:
----
-
 In Status Communities, you need tokens to access [token-gated communities and channels](./about-the-different-types-of-status-communities.mdx), or to become TokenMaster. You can get tokens through [airdrops](./how-to-airdrop-tokens-in-status.mdx), a way of distributing tokens for free to eligible users. You can also get tokens by [buying them](../wallet/buy-crypto.mdx).
 
 The [Owner or TokenMaster roles](./about-the-management-roles-in-status-communities.mdx) can take back the community tokens they gave you via airdrop anytime. This action can change your role and access in the community or channel, depending on the type and function of the token.

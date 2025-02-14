@@ -1,11 +1,3 @@
----
-id: 689
-revision: '1'
-language: en
-title: About the management roles in Status Communities
-author: jorge-campo, earakel
----
-
 Three roles collaborate in the Status Community administration and maintenance tasks: Owner, TokenMaster and Admin.
 
 Users who create a community in Status receive the Owner role automatically. Community Owners can designate other users as TokenMasters or Admins.

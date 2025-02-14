@@ -1,11 +1,3 @@
----
-id: 285
-revision: '1'
-language: en
-title: React and reply to messages
-author: earakel, jorge-campo
----
-
     [Admonition: Beta]
     The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
 

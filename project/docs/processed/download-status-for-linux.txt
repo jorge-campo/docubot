@@ -1,11 +1,3 @@
----
-id: 295
-revision: '2'
-language: en
-title: Download Status for Linux
-author: jorge-campo, Fabiomorais87 
----
-
 The Status desktop app is the best way to use Status on Linux. Take a look at the steps below to get started.
 
 ## What to expect

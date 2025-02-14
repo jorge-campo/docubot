@@ -1,11 +1,3 @@
----
-id: 571 
-revision: '0'
-language: en
-title: Download Status for Windows
-author: FabioMorais87, jorge-campo
----
-
 The Status desktop app is the best way to experience Status on Windows. Take a look at the steps below to get started.
 
     [Admonition: Info]

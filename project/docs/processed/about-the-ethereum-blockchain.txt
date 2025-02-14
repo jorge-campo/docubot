@@ -1,11 +1,3 @@
----
-id: 156
-revision: '1'
-language: en
-title: About the Ethereum blockchain
-author: jorge-campo, Fabiomorais87
----
-
 Imagine a giant digital ledger, similar to a shared spreadsheet, that everyone can access but not change at will. This ledger keeps a record of digital transactions, each verified by thousands of computers worldwide. This is a simplified way to describe a blockchain. It's a decentralized, often public, and immutable system where digital transactions occur.
 
 These digital transactions serve various purposes, such as buying or sending tokens or interacting with decentralized apps (dApps).

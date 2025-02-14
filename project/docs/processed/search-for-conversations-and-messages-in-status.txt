@@ -1,12 +1,3 @@
----
-id: 1321
-revision: '0'
-language: en
-title: Search for conversations and messages in Status
-author: jorge-campo, Fabiomorais87
-roles:
----
-
     [Admonition: Info]
     Currently, you can only search for conversations and messages in the Status desktop app.
 

@@ -1,11 +1,3 @@
----
-id: 75
-revision: '2'
-language: en
-title: Send crypto to someone
-author: earakel, jorge-campo, Fabiomorais87
----
-
 You can send crypto to other people using your [Status Wallet](./status-wallet-your-quick-start-guide.mdx). The person you're sending crypto to doesn't need to be a Status Wallet user.
 
 If you want to transfer funds between several blockchain networks, Status Wallet automatically determines the most efficient route and calculates the [network fees](./understand-network-fees.mdx).

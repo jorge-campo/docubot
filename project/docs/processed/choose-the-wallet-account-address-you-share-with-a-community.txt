@@ -1,12 +1,3 @@
----
-id: 815
-revision: '1'
-language: en
-title: Choose the Wallet account address you share with a community
-author: jorge-campo, cheny0
-roles:
----
-
 When you join a community, you share one or more Status Wallet accounts. This action confirms you have the tokens for token-gated communities or channels and lets you participate in airdrops or fulfill a [management role](./about-the-management-roles-in-status-communities.mdx).
 
 No matter which [type of community](./about-the-different-types-of-status-communities.mdx) you want to join, you must share at least one Wallet account address (or address, for short) with the [community control node](./about-the-control-node-in-status-communities.mdx). If you have only one address, it's automatically selected when joining the community and you can't unselect this address.

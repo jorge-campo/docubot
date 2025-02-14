@@ -1,11 +1,3 @@
----
-id: 483
-revision: '1'
-language: en
-title: Understand common crypto scams
-author: earakel, jorge-campo
----
-
 [Status Wallet](./status-wallet-your-quick-start-guide.mdx) is decentralized and non-custodial, which means that no one but you has access to your [recovery phrase](../profile/understand-your-status-keys-and-recovery-phrase.mdx) and crypto. Status doesn't store your recovery phrase and has no access to it. You're the only person who has access to and manages your recovery phrase. This means that to keep your money safe, you can learn more about common crypto scams and how to protect your crypto from them.
 
 ## Learn how to protect your crypto

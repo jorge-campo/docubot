@@ -1,12 +1,3 @@
----
-id: 1196
-revision: '0'
-language: en
-title: Guide to dApp interactions in Status Wallet
-author: jorge-campo, Fabiomorais87
-roles:
----
-
 When you [connect to a dApp](./connect-to-dapps-using-walletconnect.mdx) using your Status Wallet, you're granting the dApp permission to view your wallet public information, such as account address and balance.
 
     [Admonition: Info]

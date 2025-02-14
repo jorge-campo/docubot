@@ -1,11 +1,3 @@
----
-id: 357
-revision: '2'
-language: en
-title: View and edit your Status profile
-author: cheny0, jorge-campo
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

@@ -1,11 +1,3 @@
----
-id: 294
-revision: '2'
-language: en
-title: Download Status for Mac
-author: jorge-campo
----
-
 The Status desktop app is the best way to experience Status on the Mac operating system (macOS). The app works on Mac computers using either the Apple silicon processor or the Intel processor.
 
 ## Download the Status app

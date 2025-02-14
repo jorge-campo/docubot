@@ -1,11 +1,3 @@
----
-id: 570
-revision: '0'
-language: en
-title: Customize mentions and other messages notifications
-author: Fabiomorais87, cheny0, jorge-campo 
----
-
     [Admonition: Info]
     Currently, you can only customize your channel notifications in the Status mobile app.
 

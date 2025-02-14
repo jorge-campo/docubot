@@ -1,7 +1,0 @@
----
-id: 590
-revision: '0'
-language: en
-title: About custom derivation paths
-author: 
----

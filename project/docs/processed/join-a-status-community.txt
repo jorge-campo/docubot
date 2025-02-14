@@ -1,11 +1,3 @@
----
-id: 646
-revision: '2'
-language: en
-title: Join a Status Community
-author: cheny0, jorge-campo
----
-
     [Admonition: Beta]
     The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
 

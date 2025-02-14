@@ -15,7 +15,7 @@ embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Which model do you want Ollama to use?
 # Make sure you have downloaded it in Ollama (e.g. "ollama run llama3.2" once).
-OLLAMA_MODEL = "llama3.2"  # Example name — adapt to your actual model tag
+OLLAMA_MODEL = "llama2:7b-chat"  # Example name — adapt to your actual model tag
 
 def retrieve_chunks(question, top_k=3):
     """

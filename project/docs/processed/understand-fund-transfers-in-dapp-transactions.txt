@@ -1,12 +1,3 @@
----
-id: 1238
-revision: '0'
-language: en
-title: Understand fund transfers in dApp transactions
-author: jorge-campo, Fabiomorais87
-roles:
----
-
 When you interact with a dApp using Wallet, some actions may involve transferring your funds. These fund transfers occur when you approve certain [types of transactions](./guide-to-dapp-interactions-in-status-wallet.mdx), such as sending tokens or granting a dApp permission to manage your assets for specific purposes.
 
     [Admonition: Info]

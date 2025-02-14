@@ -1,7 +1,0 @@
----
-id: 
-revision: 
-language: 
-title: Status features by platform
-author: 
----

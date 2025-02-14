@@ -1,11 +1,3 @@
----
-id: 968
-revision: '1'
-language: en
-title: Transfer you ENS name to Status
-author: jorge-campo, cheny0
----
-
 The [Ethereum Name Service](https://ens.domains/) (ENS) is a decentralized system on the Ethereum blockchain that converts complex machine-readable addresses into human-readable names. ENS makes it easier to send and receive crypto tokens or use decentralized applications (dApps) without remembering long and complicated addresses.
 
 For example, instead of sending cryptocurrency to a long and complicated address like 0x3cB...25a, you can simply send it to an easy-to-remember name like alice.eth.

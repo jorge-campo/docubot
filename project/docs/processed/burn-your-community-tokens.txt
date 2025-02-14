@@ -1,14 +1,3 @@
----
-id: 593
-revision: '0'
-language: en
-title: Burn your community tokens
-author: jorge-campo, Fabiomorais87
-roles:
-  - Owner
-  - TokenMaster
----
-
 As a community Owner or TokenMaster in Status, you can reduce the supply of community tokens by burning them. You can burn assets (virtual currencies) or collectibles (NFTs) you created in your community.
 
     [Admonition: Tip]

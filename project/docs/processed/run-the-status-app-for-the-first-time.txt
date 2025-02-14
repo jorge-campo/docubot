@@ -1,11 +1,3 @@
----
-id: 198
-revision: '3'
-language: en
-title: Run the Status app for the first time
-author: jorge-campo, cheny0
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

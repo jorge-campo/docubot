@@ -1,11 +1,3 @@
----
-id: 352
-revision: '2'
-language: en
-title: Understand your Status keys and recovery phrase
-author: jorge-campo, earakel
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

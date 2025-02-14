@@ -1,12 +1,3 @@
----
-id: 1367
-revision: '0'
-language: en
-title: 'Check your Status app version'
-author: jorge-campo, Fabiomorais87
-roles:
----
-
 You can check the version of the Status app you're running to ensure it's up to date or for troubleshooting purposes.
 
 ## Check your Status app version

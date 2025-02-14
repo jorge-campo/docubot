@@ -1,11 +1,3 @@
----
-id: 468
-revision: '2'
-language: en
-title: 'Channels: your quick start guide'
-author: Fabiomorais87, cheny0, jorge-campo
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1698241679/Help/Documentation%20Screens/Communities/468/468_Header_Light.png)
 
     [Admonition: Beta]

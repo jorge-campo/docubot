@@ -1,12 +1,3 @@
----
-id: 392
-revision: '3'
-language: en
-title: Understand token requirements in communities
-author: Fabiomorais87, jorge-campo
-roles:
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1696321398/Help/Documentation%20Screens/Communities/392/392_Header_Light.png)
 
     [Admonition: Beta]

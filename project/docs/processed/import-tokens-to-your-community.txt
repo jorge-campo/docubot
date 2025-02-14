@@ -1,14 +1,3 @@
----
-id: 1258
-revision: '0'
-language: en
-title: Import tokens to your community
-author: jorge-campo, Fabiomorais87
-roles:
-- Owner
-- TokenMaster
----
-
 In Status Communities, Owners and TokenMasters can [mint new tokens](./mint-tokens-for-your-community.mdx) and use them to set [token-based](./token-based-access-to-communities-and-channels.mdx) communities and channels or [delegate permissions](./delegate-management-functions-to-your-community.mdx) to other members.
 
 In addition to minting new tokens, Owners and TokenMasters can import existing ERC-20 tokens to their community. Importing is useful if you want to use one of the tokens in token lists such as [Uniswap](https://app.uniswap.org/) instead of your own minted token.

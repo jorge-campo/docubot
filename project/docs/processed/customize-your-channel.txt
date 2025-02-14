@@ -1,12 +1,3 @@
----
-id: 1300
-revision: '0'
-language: en
-title: Customize your channel
-author: cheny0, Fabiomorais87, jorge-campo
-roles:
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

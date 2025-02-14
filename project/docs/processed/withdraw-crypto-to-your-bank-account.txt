@@ -1,11 +1,3 @@
----
-id: 477
-revision: '0'
-language: en
-title: Withdraw crypto to your bank account
-author: earakel
----
-
 In Status Wallet, you can only withdraw your crypto to your bank account through a third-party platform.
 
 ## Withdraw crypto to your bank account

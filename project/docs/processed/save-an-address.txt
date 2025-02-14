@@ -1,11 +1,3 @@
----
-id: 566
-revision: '1'
-language: en
-title: Save an address
-author: earakel, jorge-campo
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

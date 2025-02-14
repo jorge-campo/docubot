@@ -1,11 +1,3 @@
----
-id: 535
-revision: '2'
-language: en
-title: 'FAQ: Status keys and recovery phrase'
-author: jorge-campo, earakel
----
-
 Your Status keys and recovery phrase (also referred to as a mnemonic phrase or seed phrase) secure and authenticate your communications and transactions.
 
 Your public Status key is like an email address, serving as an identifier you can share with others for communication. When you [share your Status profile](./share-your-status-profile.mdx) with others, you share your public key.

@@ -1,14 +1,3 @@
----
-id: 424
-revision: '4'
-language: en
-title: Mint tokens for your community
-author: jorge-campo, cheny0
-roles:
-- Owners
-- TokenMasters
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

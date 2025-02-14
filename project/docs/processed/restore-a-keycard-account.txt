@@ -1,7 +1,0 @@
----
-id:
-revision: '0'
-language: en
-title: Restore a Keycard account 
-author:
----

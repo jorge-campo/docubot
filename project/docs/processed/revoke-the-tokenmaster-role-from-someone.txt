@@ -1,11 +1,3 @@
----
-id: 781
-revision: '1'
-language: en
-title: Revoke the TokenMaster role from someone
-author: jorge-campo, cheny0, osmaczko
----
-
 In Status Communities, Owners can grant the [TokenMaster role](./about-the-management-roles-in-status-communities.mdx) to others by airdropping them the TokenMaster token. The TokenMaster role in a community is optional, but it can help Owners administer the community tokens, membership and permissions.
 
 When you [airdrop the TokenMaster token](./how-to-airdrop-the-tokenmaster-token.mdx) to someone, they become a TokenMaster and [gain administrative privileges](./about-the-management-roles-in-status-communities.mdx) in your community. To revoke this role, you remotely destruct the TokenMaster token in their wallet.

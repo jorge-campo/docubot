@@ -1,12 +1,3 @@
----
-id: 1392
-revision: '0'
-language: en
-title: Install the Status Connector extension
-author: jorge-campo, Fabiomorais87
-roles:
----
-
 [Status Connector](https://chromewebstore.google.com/detail/kahehnbpamjplefhpkhafinaodkkenpg) is an open-source browser extension that you can use to connect to decentralized applications (dApps) directly from your desktop browser.
 
 You can use Status Connector with Chrome and other Chromium-based browsers, such as Brave, Edge or Opera.

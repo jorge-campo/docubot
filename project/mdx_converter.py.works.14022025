@@ -5,7 +5,6 @@ MDX-to-plaintext transformation script with:
  - Removal of <ExternalIcon />
  - Stripping '}>...' from ContextTag labels
  - Recursive search for .mdx in docs/mdx/* subfolders
- - Removal of front matter (--- ... ---) at the beginning of each MDX file
 
 Directory structure:
 
@@ -16,14 +15,21 @@ project/
 └── mdx_converter.py     # This script
 
 Transformation Pipeline:
-1. Remove front matter enclosed by --- at the beginning of the document
-2. Remove <ExternalIcon />
-3. Convert Admonitions => [Admonition: Xyz]
-4. Convert <Tabs> => separate blocks
-5. Convert <ContextTag> => "Some text" (removing leading '}>' if present)
-6. Replace <br> => two trailing spaces
-7. Convert <Table> => [Table]\n|...| with indentation
-8. Post-process indentation (admonitions, tables, steps)
+1. Convert MDX features:
+   - Admonitions => [Admonition: Xyz]
+   - Tabs => separate blocks
+   - ContextTag => "Some text", removing leading '}>' if present
+   - <ExternalIcon /> => removed entirely
+   - <br> => two trailing spaces
+   - <Table> => [Table]\n|...| with indentation
+
+2. Post-process indentation:
+   - Flatten top-level headings/steps
+   - Indent admonitions
+   - Indent entire table blocks (including multi-line cells)
+
+The script recursively searches docs/mdx for .mdx files and writes .txt outputs
+to docs/processed in a flattened fashion.
 
 Usage:
     python mdx_converter.py
@@ -36,14 +42,6 @@ from pathlib import Path
 ########################################
 # Regex Patterns
 ########################################
-
-# 1) Front matter, enclosed by triple-dashes at the start of the doc.
-#    We assume it appears at the top of the file, from the first line
-#    with '---' to the next line with '---'.
-RE_FRONTMATTER = re.compile(
-    r'^---\s*\n.*?\n---\s*\n?',  # non-greedy capture of any lines in between
-    re.DOTALL | re.MULTILINE
-)
 
 RE_ADMONITION = re.compile(r'<Admonition\s+type="([^"\']+)"[^>]*>(.*?)</Admonition>', re.DOTALL)
 RE_CONTEXTTAG = re.compile(r'<ContextTag(?:[^>]*)>(.*?)</ContextTag>', re.DOTALL)
@@ -64,18 +62,6 @@ RE_EXTERNAL_ICON = re.compile(r'<ExternalIcon\s*/>')
 ########################################
 # Conversion Functions
 ########################################
-
-def remove_front_matter(text: str) -> str:
-    """
-    Remove the front matter enclosed in --- at the beginning of the file.
-    Example:
-    ---
-    id: ...
-    ...
-    ---
-    """
-    # Substitutes any matches with an empty string
-    return RE_FRONTMATTER.sub('', text, count=1)
 
 def remove_external_icons(text: str) -> str:
     """Remove any <ExternalIcon /> tags entirely."""
@@ -183,27 +169,18 @@ def convert_tabs(text: str) -> str:
 def convert_mdx_to_text(mdx_text: str) -> str:
     """
     Main transformation pipeline:
-    1) remove_front_matter
-    2) remove_external_icons
-    3) convert_admonitions
-    4) convert_tabs
-    5) convert_context_tags
-    6) convert_br_tags
-    7) convert_tables
+    1) remove_external_icons
+    2) convert_admonitions
+    3) convert_tabs
+    4) convert_context_tags
+    5) convert_br_tags
+    6) convert_tables
     """
-    # 1) Remove front matter at the start
-    output = remove_front_matter(mdx_text)
-    # 2) Remove <ExternalIcon />
-    output = remove_external_icons(output)
-    # 3) Admonitions
+    output = remove_external_icons(mdx_text)
     output = convert_admonitions(output)
-    # 4) Tabs
     output = convert_tabs(output)
-    # 5) Context tags
     output = convert_context_tags(output)
-    # 6) <br> => two trailing spaces
     output = convert_br_tags(output)
-    # 7) <Table> => [Table]\n|...|
     output = convert_tables(output)
     return output
 
@@ -314,7 +291,7 @@ def main():
         # 2) Fix indentation & spacing
         final_text = fix_indentation(converted_text)
 
-        # 3) Save as .txt in docs/processed (flattened approach)
+        # 3) Save as .txt in docs/processed
         out_file = output_dir / (mdx_file.stem + ".txt")
         with open(out_file, "w", encoding="utf-8") as f:
             f.write(final_text)

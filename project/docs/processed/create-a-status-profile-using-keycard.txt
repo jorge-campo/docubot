@@ -1,11 +1,3 @@
----
-id: 692
-revision: '3'
-language: en
-title: Create a Status profile using Keycard
-author: cheny0, jorge-campo, Fabiomorais87
----
-
     [Admonition: Beta]
     The Status app is currently in beta. This means the app is still undergoing active development, and certain features described in this document may function differently or be unavailable in the app.
 

@@ -1,8 +1,0 @@
----
-id:
-revision: '0'
-language: en
-title: Customize your wallet account
-author:
-roles: 
----

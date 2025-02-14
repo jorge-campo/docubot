@@ -1,12 +1,3 @@
----
-id: 1105
-revision: '0'
-language: en
-title: About your multi-chain and legacy addresses
-author: FabioMorais87, cheny0, jorge-campo 
-roles: 
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1716898444/Help/Documentation%20Screens/Wallet/466/466_Header_Light.png)
 
     [Admonition: Beta]

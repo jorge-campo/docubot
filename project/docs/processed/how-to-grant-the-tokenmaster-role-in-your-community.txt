@@ -1,13 +1,3 @@
----
-id: 789
-revision: '1'
-language: en
-title: How to grant the TokenMaster role in your community
-author: jorge-campo, cheny0
-roles:
-  - Owner
----
-
 Community Owners can grant other users the [TokenMaster role](./about-the-management-roles-in-status-communities.mdx) by [airdropping them the TokenMaster token](./how-to-airdrop-the-tokenmaster-token.mdx).
 
 As a community owner, you don't have to appoint TokenMasters, but they can be helpful if you're managing a large community or event. For example, TokenMasters can [moderate the community](./kick-or-ban-someone-from-your-community.mdx), [set permissions](./set-up-your-community-permissions.mdx) and [mint new tokens](./mint-tokens-for-your-community.mdx) (except the TokenMaster token).

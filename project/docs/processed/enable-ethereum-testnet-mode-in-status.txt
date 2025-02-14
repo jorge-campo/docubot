@@ -1,12 +1,3 @@
----
-id: 1082
-revision: '0'
-language: en
-title: Enable Ethereum testnet mode in Status
-author: jorge-campo, Fabiomorais87
-roles:
----
-
 The [Ethereum blockchain](../getting-started/about-the-ethereum-blockchain.mdx) has two networks: Mainnet and testnet. Ethereum Mainnet is the primary network where actual transactions occur with real crypto.
 
 Developers use Ethereum testnet for testing, which doesn't involve real crypto. In testnet mode, they can experiment with features and functionalities without risking their crypto.

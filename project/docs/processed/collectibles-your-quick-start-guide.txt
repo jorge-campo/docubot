@@ -1,11 +1,3 @@
----
-id: 1184
-revision: '1'
-language: en
-title: 'Collectibles: your quick start guide'
-author: Fabiomorais87, cheny0, jorge-campo
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1729157619/Help/Documentation%20Screens/Wallet/1184/1184_Header_light.png)
 
     [Admonition: Beta]

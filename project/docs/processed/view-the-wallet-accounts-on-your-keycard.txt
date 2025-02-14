@@ -1,7 +1,0 @@
----
-id:
-revision: '0'
-language: en
-title: View the wallet accounts on your Keycard
-author:
----

@@ -1,7 +1,0 @@
----
-id:
-revision: '0'
-language: en
-title: Set up new Keycard
-author:
----

@@ -1,14 +1,3 @@
----
-id: 782
-revision: '1'
-language: en
-title: Revoke a community token from someone
-author: jorge-campo, cheny0
-roles:
-  - Owner
-  - TokenMaster
----
-
 [Community Owners and TokenMasters](./about-the-management-roles-in-status-communities.mdx) can revoke tokens from community and non-community members by remotely destructing the token.
 
 Depending on the token you revoke, the user may lose access to certain privileges or roles in the community. For example, if you revoke a token you minted and this token is required to be a member of your [token-gated community](./token-based-access-to-communities-and-channels.mdx), the user loses access to the community.

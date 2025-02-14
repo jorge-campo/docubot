@@ -1,11 +1,3 @@
----
-id: 1355
-revision: '0'
-language: en
-title: 'Prioritising User Privacy in Status Software'
-author: status-im
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1733239736/Help/Documentation%20Screens/Marketing/1355/1355_Header.png)
 
 ## TL;DR

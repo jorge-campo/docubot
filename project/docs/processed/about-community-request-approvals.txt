@@ -1,12 +1,3 @@
----
-id: 375
-revision: '2'
-language: en
-title: About community request approvals
-author: Fabiomorais87, jorge-campo
-roles:
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1696002772/Help/Documentation%20Screens/Communities/375/375_Header_Light.png)
 
     [Admonition: Beta]

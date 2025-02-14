@@ -1,12 +1,3 @@
----
-id: 1078
-revision: '1'
-language: en
-title: Third-party tools disclaimer and user responsibility
-author: jorge-campo, earakel
-roles:
----
-
 In this user documentation, we may refer you to and instruct you on the use of certain third party products, services or tools ("Third Party Tools").
 
 You acknowledge that we do not control nor operate the Third Party Tools and that these are products, services or tools that are respectively provided or operated by others and not by us. Furthermore, in principle, we do not provide any advice, recommendation, support or endorse such Third Party Tools.

@@ -1,12 +1,3 @@
----
-id: 145
-revision: '3'
-language: en
-title: 'How to use Status Communities: your quick start guide'
-author: jorge-campo, cheny0
-roles:
----
-
 ![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1693319365/Help/Documentation%20Screens/Getting%20Started/145/145_Header_Light.png)
 
     [Admonition: Beta]

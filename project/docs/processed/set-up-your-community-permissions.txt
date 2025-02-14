@@ -1,14 +1,3 @@
----
-id: 435
-revision: '3'
-language: en
-title: Set up your community permissions
-author: jorge-campo, cheny0
-roles:
-  - Owner
-  - TokenMaster
----
-
     [Admonition: Beta]
     The Status app is currently in its beta stage. This means the application is still undergoing active development, and certain features described in this document may function differently or be unavailable within the app.
 

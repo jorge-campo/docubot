@@ -1,12 +1,3 @@
----
-id: 384
-revision: '0'
-language: en
-title: About the Status SNT token
-author: jorge-campo, cheny0
-roles:
----
-
 SNT is a fixed-supply ERC-20 token on the Ethereum network, and the token of the Status ecosystem.
 
 The SNT token is part of our greater aspirations and political aims, as described in our [manifesto](https://status.app/manifesto). We seek to defend the freedom of speech worldwide, uphold human rights and help people preserve their right to privacy.

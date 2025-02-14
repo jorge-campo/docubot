@@ -1,13 +1,3 @@
----
-id: 406
-revision: '3'
-language: en
-title: Replace your community control node
-author: jorge-campo, cheny0
-roles:
-- Owners
----
-
     [Admonition: Beta]
     Replacing your community control node is an experimental feature.
 

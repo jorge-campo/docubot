@@ -1,8 +1,0 @@
----
-id: 1236 
-revision: '0'
-language: en
-title: About uninstalling Status 
-author: cheny0
-roles: 
----
