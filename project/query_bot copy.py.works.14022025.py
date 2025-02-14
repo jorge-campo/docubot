@@ -3,7 +3,6 @@ import faiss
 import numpy as np
 import pickle
 import requests
-import json  # Added missing import
 from sentence_transformers import SentenceTransformer
 
 # 1. Load FAISS index and chunks
@@ -15,7 +14,8 @@ with open("chunks.pkl", "rb") as f:
 embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Which model do you want Ollama to use?
-OLLAMA_MODEL = "phi4:latest"  # Example name — adapt to your actual model tag
+# Make sure you have downloaded it in Ollama (e.g. "ollama run llama3.2" once).
+OLLAMA_MODEL = "llama2:7b-chat"  # Example name — adapt to your actual model tag
 
 def retrieve_chunks(question, top_k=3):
     """
@@ -32,13 +32,14 @@ def retrieve_chunks(question, top_k=3):
 
 def call_ollama(prompt, model=OLLAMA_MODEL):
     """
-    Calls the local Ollama server at http://localhost:11434/api/generate
+    Calls the local Ollama server at http://localhost:11434/generate
     with a given prompt and model. Returns the text output.
     """
     url = "http://localhost:11434/api/generate"
     payload = {
         "model": model,
         "prompt": prompt,
+        # Optionally, add more config like: "temperature": 0.2, "max_tokens": 300
         "temperature": 0.5,
         "max_tokens": 256
     }
@@ -50,44 +51,32 @@ def call_ollama(prompt, model=OLLAMA_MODEL):
     generated_text = []
     for line in response.iter_lines():
         if line:
+            # Each line is a JSON with {"done": bool, "response": "..."} or similar
             data = line.decode('utf-8')
             try:
-                json_data = json.loads(data)
+                # Example: {"response":"some text", "done":false}
+                json_data = eval(data) if data.startswith('{') else {}
+                # We parse the "response" field
                 if "response" in json_data:
                     generated_text.append(json_data["response"])
-            except json.JSONDecodeError as e:
-                print(f"Failed to parse JSON: {e} | Raw data: {data}")
+            except:
                 continue
     
     return "".join(generated_text)
 
 def main():
     user_question = input("Ask a question about Status: ")
-    
-    # Retrieve the top chunks
     top_chunks = retrieve_chunks(user_question, top_k=3)
-    
-    # Debug: Print each retrieved chunk
-    print("DEBUG: Retrieved the following chunks for your question:")
-    for dist, fn, chunk in top_chunks:
-        print(f"File: {fn} | Distance: {dist}")
-        print("Sample chunk text:\n", chunk[:300], "...")
-        print("-" * 60)
 
     # Build the context text from your retrieved chunks
     context_text = ""
     for dist, fn, chunk in top_chunks:
         context_text += f"From {fn}:\n{chunk}\n\n"
 
-    # Define your prompt (system prompt)
+    # Define your prompt (or system_prompt)
     prompt = f"""
-
-You are an assistant that answers questions **strictly** based on the provided context below. 
-Follow these rules:
-1. If the answer is not explicitly contained in the context, respond with: "I don't know based on the available documentation." and DON'T ANSWER any further.
-2. Never mention that you're using provided context.
-3. Never use prior knowledge to answer questions.
-4. If the question is unrelated to the context, still respond with "I don't know based on the available documentation." and DON'T ANSWER any further.
+You are a helpful assistant with knowledge only from the text below. 
+If the answer isn't in the text, say "I don't know based on the available documentation."
 
 Context:
 {context_text}
@@ -97,10 +86,10 @@ User question: {user_question}
 Answer:
 """
 
-    # Debug: Print the exact prompt
+    # Now it’s safe to print it!
     print("DEBUG: Final prompt to Ollama:\n", prompt)
 
-    # Finally, call Ollama
+    # Finally, call your function to query Ollama
     answer = call_ollama(prompt, model=OLLAMA_MODEL)
     print("-----")
     print("Answer:", answer.strip())
