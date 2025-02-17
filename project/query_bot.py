@@ -15,7 +15,7 @@ with open("chunks.pkl", "rb") as f:
 embedder = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # Which model do you want Ollama to use?
-OLLAMA_MODEL = "phi4:latest"  # Example name — adapt to your actual model tag
+OLLAMA_MODEL = "deepseek-r1:14b"  # Example name — adapt to your actual model tag
 
 def retrieve_chunks(question, top_k=3):
     """
@@ -99,6 +99,8 @@ Follow these rules:
 2. Never mention that you're using provided context.
 3. Never use prior knowledge to answer questions.
 4. If the question is unrelated to the context, still respond with "I don't know based on the available documentation." and DON'T ANSWER any further.
+5. Never recommend to contact support.
+6. Provide SHORT AND CONCISE answers.
 
 Context:
 {context_text}
